@@ -9,7 +9,7 @@ It can be used for evaluating and optimising bow designs before actually buildin
 
 Bow Simulator is free open-source software released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl.html).
 
-Have a look at the screenshots and feature list below, read the [user manual](resources.md) or visit the [download section](download.md) to get the latest version. If you're interested in news and discussion about this project, subscribe to the new [mailing lists](mailing-lists.md).
+For more information see the screenshots and feature list below or have a look at the [user manual](resources.md). Visit the [download section](download.md) to get the latest version. If you want to keep up with this project, subscribe to the new [mailing lists](mailing-lists.md).
 
 ## Screenshots
 
