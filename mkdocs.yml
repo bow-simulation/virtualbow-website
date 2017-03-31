@@ -1,0 +1,14 @@
+site_name: Bow Simulator
+site_description: Bow and Arrow Physics Simulation for Windows, Linux and Mac OS-X
+site_favicon: img/logo.ico
+site_author: Stefan Pfeifer
+theme_dir: themes/cinder
+pages:
+    - Home: index.md
+    - News: news.md
+    - Download: download.md
+    - Resources: resources.md
+    - About:
+        - Getting Involved: contributing.md
+        - Mailing Lists: mailing-lists.md
+        - Contact: contact.md
