@@ -11,7 +11,7 @@ Bow Simulator is free open-source software released under the [GNU General Publi
 
 For more information see the screenshots and feature list below or have a look at the [user manual](resources.md). Visit the [download section](download.md) to get the latest version. If you want to keep up with this project, subscribe to the new [mailing lists](mailing-lists.md).
 
-<font color="red">Please note that this software is still somewhat incomplete and immature, so don't trust the results too much yet and report all bugs or other problems.</font>
+<font color="red">Please note that this software is still somewhat incomplete and immature, so don't trust the results too much yet and report all bugs or other problems you encounter.</font>
 
 ## Screenshots
 
