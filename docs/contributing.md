@@ -3,7 +3,7 @@
 ---
 
 There are many ways in which you can get involved in this project and help improving it.
-The sections below can give you an overview, but don't hesitate to [contact me](contact.md) with your own ideas as well. Any help is appreciated!
+The following sections will give you an overview, but feel free to [contact me](contact.md) with your own ideas as well. Any help is appreciated!
 
 ### Feedback, Feature Requests and Bug Reports
 
@@ -14,25 +14,24 @@ Also, be sure to report any bugs or other problems you find.
 ### Software Development
 
 Bow Simulator is written in C++ with a Qt GUI.
-There are always many things to implement, improve or clean up, from the GUI to the simulation model and the numerical methods.
-The source code repository is hosted at [gitlab](https://gitlab.com/bow-simulator/bow-simulator/tree/master).
-<!--Check out the [Readme.md](...) for build instructions and an introduction to the codebase.-->
+There are always many things to implement or improve, from the user interface down to the simulation model and the numerical methods.
+The source code is hosted at [https://gitlab.com/bow-simulator](https://gitlab.com/bow-simulator). <!--Check out the Readme for build instructions, an introduction to the codebase and how to contribute.-->
 If you need ideas what to work on, have a look at the [issue tracker](https://gitlab.com/bow-simulator/bow-simulator/issues).
-I will gladly help you getting started.
+I will gladly help you getting started with the code base.
 
 ### Validation of Simulation Results
 
 This is perhaps the most important work currently.
-If you have used this program to design a real bow, let me know how well the simulation matches reality.
+If you have used this program to design a real bow, let me know how the simulation compares to reality.
 The draw curve of a bow for example is fairly easy to obtain.
 
-However, many of the simulation results are much more difficult to measure, material stresses for example.
-So if you happen to have access to advanced equipment (things like strain gauges, acceleration sensors, a high speed camera, a tension testing machine, etc.) your help would be extremely valuable for this project.
+However, many of the simulation results are difficult to measure, material stresses for example.
+So if you happen to have access to advanced equipment (things strain gauges, acceleration sensors, a high speed camera, a tension testing machine, etc.) your help would be extremely valuable for this project.
 
 ### Documentation
 
-Help to make sure that the User Manual and/or the Technical Documentation are as complete and comprehensible as they can be.
-These documents also need to be kept up to date with new releases of Bow Simulator.
+Help to make sure the User Manual and/or the Technical Documentation are as complete and comprehensible as they can be.
+These documents also need to be kept up to date with new versions of the software.
 Someone with an outside perspective would be a great help here.
 
 <!--All documentation is written in LaTex, the source files can be found at [https://bitbucket.org/stfnp/bow-simulator-docs](https://bitbucket.org/stfnp/bow-simulator-docs).-->
