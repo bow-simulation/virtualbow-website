@@ -16,7 +16,7 @@ Unfortunately there is also some bad news: No more Mac OS support for now. I pre
 
 ---
 
-###__**25.11.2016:**__ [Version 0.1](download.md) released!
+###__**25.12.2016:**__ [Version 0.1](download.md) released!
 
 ---
 
