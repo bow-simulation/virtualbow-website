@@ -2,7 +2,7 @@
 
 ---
 
-There are many ways to get involved in this project. The following sections will give you an overview, but feel free to [contact me](contact.md) with your own ideas as well. Any help is appreciated!
+There are many ways to get involved in this project. The following sections will give you an overview, but feel free to [contact me](maintainer.md) with your own ideas as well. Any help is appreciated!
 
 ### Feedback, Feature Requests and Bug Reports
 
@@ -16,16 +16,15 @@ Bow Simulator is written in C++ with a Qt GUI.
 There are always many things to implement or improve, from the user interface down to the simulation model and the numerical methods.
 The source code is hosted at [https://gitlab.com/bow-simulator](https://gitlab.com/bow-simulator). <!--Check out the Readme for build instructions, an introduction to the codebase and how to contribute.-->
 If you need ideas what to work on, have a look at the [issue tracker](https://gitlab.com/bow-simulator/bow-simulator/issues).
-I will gladly help you getting started with the code base.
+I will gladly help you getting started.
 
 ### Validation of Simulation Results
 
-This is perhaps the most important work currently.
-If you have used this program to design a real bow, let me know how the simulation compares to reality.
-The draw curve of a bow for example is fairly easy to obtain.
+This is perhaps the most important topic currently.
+If you have used this program to design a real bow, let me know how the simulation compares to reality. The draw curve of a bow for example is fairly easy to obtain.
 
-However, many of the simulation results are difficult to measure, material stresses for example.
-So if you happen to have access to advanced equipment (things strain gauges, acceleration sensors, a high speed camera, a tension testing machine, etc.) your help would be extremely valuable for this project.
+Many other simulation results however are difficult to measure, think about material stresses for example.
+Therefore someone who has access to advanced measuring equipment (things strain gauges, acceleration sensors, a high speed camera, a tension testing machine, etc.) would be extremely helpful for this project.
 
 ### Documentation
 
