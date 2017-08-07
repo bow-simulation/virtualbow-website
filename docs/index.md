@@ -8,6 +8,8 @@
 <a href="../images/screenshot_03.png" ><img src="../images/screenshot_03_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_05.png" ><img src="../images/screenshot_05_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 
+<meta property="og:image" content="../images/screenshot_01_thumb.png" />
+
 ---
 
 ## Overview
