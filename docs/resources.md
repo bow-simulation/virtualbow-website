@@ -25,7 +25,7 @@ the derivation of the equations of motion and the numerical solution methods use
 
 Bow Simulator allows you to evaluate specific bow designs, but it doesn't really tell you how to design a good bow. If you want to learn about bow design you could have a look at the following sources:
 
-* *The Traditional Bowyer's Bible*, Volume 1, Chapter 3: *Bow Design and Performance* by Tim Baker is probably the most complete work on this topic.
+* *The Traditional Bowyer's Bible*, Volume 1, Chapter 3: *Bow Design and Performance* by Tim Baker is probably the most complete source on this topic.
 All the common design decisions and their performance implications are explained in a very practical and understandable way.
 
 * The [article on bow design](http://crossbow.wikia.com/wiki/Bow_design) from the [crossbow building wiki](http://crossbow.wikia.com/wiki/Crossbow_Building_Wiki) is also a good read.
