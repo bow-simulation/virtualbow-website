@@ -1,9 +1,9 @@
 site_name: Bow Simulator
 site_description: Bow and Arrow Physics Simulation for Windows, Linux and Mac OS-X
-site_favicon: img/logo.ico
+site_favicon: images/logo.ico
 site_author: Stefan Pfeifer
 theme_dir: themes/cinder
-repo_url: 'https://gitlab.com/bow-simulator/bow-simulator'
+repo_url: 'https://gitlab.com/bow-simulator'
 pages:
     - Home: index.md
     - News: news.md
