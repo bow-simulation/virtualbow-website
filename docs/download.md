@@ -18,7 +18,7 @@ sudo snap install --dangerous bow_simulator-[...].snap
 ```
 <img src="../images/icon_deb.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.2-linux64.deb](https://sourceforge.net/projects/bow-simulator/files/0.2.0/bow_simulator-0.2-linux64.deb/download)
 
-<img src="../images/icon_snap.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.2-linux64.snap](https://sourceforge.net/projects/bow-simulator/files/0.2.0/bow-simulator-0.2-linux64.snap/download)
+<img src="../images/icon_snap.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.2-linux64.snap](https://sourceforge.net/projects/bow-simulator/files/0.2.0/bow_simulator-0.2-linux64.snap/download)
 
 <!--
 ### Source Code
