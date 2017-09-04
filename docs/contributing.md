@@ -24,7 +24,7 @@ This is perhaps the most important topic currently.
 If you have used this program to design a real bow, let me know how the simulation compares to reality. The draw curve of a bow for example is fairly easy to obtain.
 
 Many other simulation results however are difficult to measure, think about material stresses for example.
-Therefore someone who has access to advanced measuring equipment (things strain gauges, acceleration sensors, a high speed camera, a tension testing machine, etc.) would be extremely helpful for this project.
+Therefore someone with access to advanced measuring equipment (things strain gauges, acceleration sensors, a high speed camera, a tension testing machine, etc.) would be extremely helpful for this project.
 
 ### Documentation
 

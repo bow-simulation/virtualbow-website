@@ -50,13 +50,10 @@ For more detailed information see the feature list below or have a look at the [
     - Degree of efficiency
     - ...
 
-<!--
-#### Command-line Interface
+**Command Line Interface**
 
-* Invoke Bow Simulator from the command line
-* Use a scripting language of your choice to automate simulations
-* [Commented examples for parameter studies and optimisations using Python and SciPy]()
--->
+* Run simulations in batch mode
+* Use Bow Simulator with your favourite programming language to perform things like parameter studies and numerical optimization
 
 <!--
 **Fully Documented**

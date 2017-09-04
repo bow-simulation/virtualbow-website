@@ -9,7 +9,7 @@ pages:
     - News: news.md
     - Download: download.md
     - Resources: resources.md
-    - Contact:
+    - About:
         - Mailing Lists: mailing-lists.md
         - Getting Involved: contributing.md
         - Contact: contact.md
