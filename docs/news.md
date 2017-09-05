@@ -6,7 +6,7 @@
 
 ---
 
-This release introduces a new command line interface for running simulations in batch mode, without opening the GUI. This way Bow Simulator can be integrated with other programs for performing more advanced computations like parameter studies and optimizations.
+This release introduces a new command line interface for running simulations in batch mode, without opening the GUI. This way Bow Simulator can be called from other programs for performing more advanced computations like parameter studies and optimizations.
 
 The [user manual](resources.md) has been updated with detailed specifications of the input and output formats and an example for using Bow Simulator with the Python programming language.
 
