@@ -3,24 +3,23 @@
 
 ---
 
+Bow Simulator is a free, open-source software tool for bow and arrow physics simulation.
+It allows you to create virtual bow models and simulate their static and dynamic performance.
+The results include things like deformation, draw curve, material stresses, arrow velocity, degree of efficiency and more.
+This way bow designs can be evaluated and optimized before actually building them.
+
+(Please note that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.)
+
+For more information see the screenshots and feature list below or have a look at the [user manual](resources.md). Visit the [download section](download.md) to get the latest version. If you want to keep up with this project, subscribe to the new [mailing lists](mailing-lists.md).
+
+## Screenshots
+
+---
+
 <a href="../images/screenshot_01.png" ><img src="../images/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_02.png" ><img src="../images/screenshot_02_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_03.png" ><img src="../images/screenshot_03_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_05.png" ><img src="../images/screenshot_05_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-
----
-
-## Overview
-
----
-
-Bow Simulator is a bow and arrow design tool that allows you to create virtual bow models and simulate their performance.
-The results include many static and dynamic characteristics of the bow such as deformation, draw curve, material stresses, arrow velocity, degree of efficiency and more.
-It can be used for evaluating and optimising bow designs before actually building them. Please note though that this software is still somewhat immature, so don't trust the results too much yet.
-
-Bow Simulator is free open-source software released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl.html).
-
-For more detailed information see the feature list below or have a look at the [user manual](resources.md). Visit the [download section](download.md) to get the latest version. If you want to keep up with this project, subscribe to the new [mailing lists](mailing-lists.md).
 
 ## Features
 

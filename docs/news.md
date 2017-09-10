@@ -2,7 +2,7 @@
 
 ---
 
-###__**04.09.2017:**__ [Version 0.3](download.md) released!
+### <p style="text-align:left;">Bow Simulator 0.3 released! <span style="float:right;">04.09.2017</span></p>
 
 ---
 
@@ -12,7 +12,7 @@ The [user manual](resources.md) has been updated with detailed specifications of
 
 ---
 
-###__**06.08.2017:**__ [Version 0.2](download.md) released!
+### <p style="text-align:left;">Bow Simulator 0.2 released! <span style="float:right;">06.08.2017</span></p>
 
 ---
 
@@ -26,11 +26,11 @@ Unfortunately there is also some bad news: No more Mac OS support for now. I pre
 
 ---
 
-###__**25.12.2016:**__ [Version 0.1](download.md) released!
+### <p style="text-align:left;">Bow Simulator 0.1 released! <span style="float:right;">25.12.2016</span></p>
 
 ---
 
-This is the first release of Bow Simulator, a complete rewrite and redesign of it's predecessor [Bow Simulation Tool](https://sourceforge.net/projects/bowsimulationtool).
+This is the initial release of Bow Simulator, a complete rewrite and redesign of it's predecessor [Bow Simulation Tool](https://sourceforge.net/projects/bowsimulationtool).
 It comes with many improvements such as
 
 * A more user-friendly interface
@@ -39,19 +39,3 @@ It comes with many improvements such as
 
 The internal redesign of the program lays the groundwork for new features like simulating laminated bows, which is planned for one of the upcoming versions.
 Thank you for your interest and stay tuned!
-
-<!--
----
-
-###**22.11.2016:** [Version 0.1.0](download.md) released!
-
-This is the first release of Bow Simulator, a complete rewrite and redesign of it's predecessor [Bow Simulation Tool](https://sourceforge.net/projects/bowsimulationtool).
-It comes with many improvements such as
-
-* A more user-friendly interface
-* Improved simulation performance
-* Cross-platform support (Windows, Linux, Mac OS X)
-
-But most importantly, the internal redesign of the program lays the groundwork for new features like simulating laminated bows, which is planned for one of the upcoming versions.
-Thank you for your interest and stay tuned!
--->
