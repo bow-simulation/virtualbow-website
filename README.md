@@ -1,1 +1,1 @@
-Bow Simulator project website ([bow-simulator.gitlab.io](https://bow-simulator.gitlab.io)), created with [mkdocs](http://www.mkdocs.org/).
+Bow Simulator project website ([http://bow-simulator.org/](http://bow-simulator.org/)), created with [mkdocs](http://www.mkdocs.org/).
