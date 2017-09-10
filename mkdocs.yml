@@ -1,5 +1,4 @@
-site_name: Bow Simulator
-site_description: Bow and Arrow Physics Simulation for Windows and Linux
+site_name: Bow Simulator - Bow and Arrow Physics Simulation
 site_favicon: images/logo.ico
 site_author: Stefan Pfeifer
 theme_dir: themes/cinder
