@@ -1,4 +1,5 @@
-site_name: Bow Simulator - Bow and Arrow Physics Simulation
+site_name: Bow Simulator - Software for bow and arrow physics simulation
+site_description: Bow Simulator is a free simulation tool for Windows and Linux that allows you to create virtual bow models and simulate their performance.
 site_favicon: images/logo.ico
 site_author: Stefan Pfeifer
 theme_dir: themes/cinder
