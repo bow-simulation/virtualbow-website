@@ -31,7 +31,7 @@ For more information see the screenshots and feature list below or have a look a
 * Specify limb profile, cross sections and many other parameters
 * Limitations for now:
     * Only rectangular, uniform cross sections
-    * No string-to-limb contact (needed for recurve bows)
+    * No string-to-limb contact (recurve bows)
 
 **Static and Dynamic Analysis**
 
