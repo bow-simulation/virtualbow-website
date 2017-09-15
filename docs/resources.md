@@ -34,11 +34,11 @@ It is obviously geared towards crossbows but most of it also applies to bows in 
 
 ### Similar Software
 
-* [*SuperTiller*](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) is an Excel spreadsheet made by Alan Case. You can enter the data of your bow and it runs a static analysis.
+* [*SuperTiller*](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) is an Excel spreadsheet made by Alan Case. You can enter the data of your bow and run a complete static analysis.
 
-* [*Woodbear's Selfbow Design Sheet [zip]*](files/woodbears-selfbow-design-sheet.zip) is also an Excel spreadsheet, but it uses a different approach: It calculates the necessary dimensions for a bow with a certain user-defined stress distribution. This is a very interesting way to design a bow.
+* [*Woodbear's Selfbow Design Sheet [zip]*](files/woodbears-selfbow-design-sheet.zip) by David Dewey is also an Excel spreadsheet, but it uses a different approach: It calculates the necessary dimensions for a bow with a user-defined stress distribution. This is a very interesting way to design a bow.
 
-* [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) is perhaps the only commercial attempt at bow simulation software so far. It started as an Indiegogo campaign and at one point they offered different kinds of licenses on their website. Unfortunately it seems to be gone now. If you watch their video demonstrations you can see that it also did some design optimization.
+* [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) is perhaps the only commercial attempt at bow design software so far. It started as an Indiegogo campaign and at one point they offered different kinds of licenses on their website. Unfortunately it seems to be gone now.
 
 <!--
 ### Physics of Bow and Arrow
