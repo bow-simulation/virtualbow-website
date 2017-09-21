@@ -34,7 +34,7 @@ It is obviously geared towards crossbows but most of it also applies to bows in 
 
 ### Similar Software
 
-* [*SuperTiller*](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) is an Excel spreadsheet made by Alan Case. You can enter the data of your bow and run a complete static analysis.
+* [*SuperTiller*](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) by Alan Case is quite an impressive Excel spreadsheet that runs a complete static analysis of a user-defined bow.
 
 * [*Woodbear's Selfbow Design Sheet [zip]*](files/woodbears-selfbow-design-sheet.zip) by David Dewey is also an Excel spreadsheet, but it uses a different approach: It calculates the necessary dimensions for a bow with a user-defined stress distribution. This is a very interesting way to design a bow.
 
