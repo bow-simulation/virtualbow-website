@@ -40,6 +40,8 @@ It is obviously geared towards crossbows but most of it also applies to bows in 
 
 * [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) is perhaps the only commercial attempt at bow simulation software so far. It started as an Indiegogo campaign and at one point they offered different kinds of licenses on their website. Unfortunately it seems to be gone now. If you watch their video demonstrations you can see that it also did some design optimization.
 
+* [*Arrowmatcher*](http://www.x-ballistics.eu) Bow Simulator doesn't simulate any external ballistics. For this you might want to have a look at *Arrowmatcher*, a ballistics programs for crossbows. It can calculate arrow speed, energy and trajectory, among other things.
+
 <!--
 ### Physics of Bow and Arrow
 
