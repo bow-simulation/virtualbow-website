@@ -2,7 +2,7 @@
 
 ---
 
-There are many ways to get involved in this project. The following sections will give you an overview, but feel free to [contact me](maintainer.md) with your own ideas as well. Any help is appreciated!
+There are many ways to get involved in this project. The following sections will give you an overview, but feel free to [contact me](contact.md) with your own ideas as well. Any help is appreciated!
 
 ### Feedback, Feature Requests and Bug Reports
 

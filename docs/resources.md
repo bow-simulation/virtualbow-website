@@ -4,7 +4,7 @@
 
 ### User Manual
 
-This is the main documentation for Bow Simulator. The User Manual gives you an overview of the program features, explains all input parameters and simulation results and also contains some tips about bow and arrow simulations.
+This is the main documentation for Bow Simulator. The User Manual gives you an overview of the program features, explains all input parameters and simulation results and also contains some background information.
 
 <img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 10px">[User Manual](files/user-manual.pdf)
 <br><br>
@@ -34,11 +34,11 @@ It is obviously geared towards crossbows but most of it also applies to bows in 
 
 ### Similar Software
 
-* [*SuperTiller*](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) is an Excel spreadsheet made by Alan Case. You can enter the data of your bow and it runs a static analysis.
+* [*SuperTiller*](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) by Alan Case is quite an impressive Excel spreadsheet that runs a complete static analysis of a user-defined bow.
 
-* [*Woodbear's Selfbow Design Sheet [zip]*](files/woodbears-selfbow-design-sheet.zip) is also an Excel spreadsheet, but it uses a different approach: It calculates the necessary dimensions for a bow with a certain user-defined stress distribution. This is a very interesting way to design a bow.
+* [*Woodbear's Selfbow Design Sheet [zip]*](files/woodbears-selfbow-design-sheet.zip) by David Dewey is also an Excel spreadsheet, but it uses a different approach: It calculates the necessary dimensions for a bow with a user-defined stress distribution. This is a very interesting way to design a bow.
 
-* [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) is perhaps the only commercial attempt at bow simulation software so far. It started as an Indiegogo campaign and at one point they offered different kinds of licenses on their website. Unfortunately it seems to be gone now. If you watch their video demonstrations you can see that it also did some design optimization.
+* [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) is perhaps the only commercial attempt at bow design software so far. It started as an Indiegogo campaign and at one point they offered different kinds of licenses on their website. Unfortunately it seems to be gone now.
 
 * [*Arrowmatcher*](http://www.x-ballistics.eu) Bow Simulator doesn't simulate any external ballistics. For this you might want to have a look at *Arrowmatcher*, a ballistics programs for crossbows. It can calculate arrow speed, energy and trajectory, among other things.
 
