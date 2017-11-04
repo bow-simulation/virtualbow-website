@@ -10,7 +10,7 @@ This way bow designs can be evaluated and optimized before actually building the
 
 (Please note that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.)
 
-For more information see the screenshots and feature list below or have a look at the [user manual](resources.md). Visit the [download section](download.md) to get the latest version. If you want to keep up with this project, subscribe to the new [mailing lists](mailing-lists.md).
+For more information see the screenshots and feature list below or have a look at the [user manual](resources.md). Visit the [download section](download.md) to get the latest version and subscribe to the [mailing lists](mailing-lists.md) if you want to keep up with the project.
 
 ## Screenshots
 
