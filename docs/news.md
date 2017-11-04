@@ -2,7 +2,7 @@
 
 ---
 
-### <p style="text-align:left;">Bow Simulator 0.4 released! <span style="float:right;">04.10.2017</span></p>
+### <p style="text-align:left;">Bow Simulator 0.4 released! <span style="float:right;">04.11.2017</span></p>
 
 ---
 
@@ -18,7 +18,7 @@ Many bow designs that previously would have crashed the simulation are now possi
 
 ---
 
-### <p style="text-align:left;">Bow Simulator 0.3 released! <span style="float:right;">04.11.2017</span></p>
+### <p style="text-align:left;">Bow Simulator 0.3 released! <span style="float:right;">04.09.2017</span></p>
 
 ---
 
