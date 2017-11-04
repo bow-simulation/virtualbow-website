@@ -3,7 +3,7 @@ image: python:3.5
 pages:
     stage: deploy
     script:
-    - pip install mkdocs
+    - pip install mkdocs==0.15.3
     - mkdocs build -d public
     artifacts:
         paths:
