@@ -2,6 +2,22 @@
 
 ---
 
+### <p style="text-align:left;">Bow Simulator 0.4 released! <span style="float:right;">04.10.2017</span></p>
+
+---
+
+The main new features for this release are
+
+* Contact handling, which allows the simulation of recurve bows
+* Two new simulation results: String force and grip force
+* A compatibility layer for opening older bow files. From now on you can expect your files to keep working with new releases, despite the file format changing all the time.
+
+There are also various smaller and larger bug fixes and other improvements.
+Most notably the robustness of the static simulation methods has increased a lot.
+Many bow designs that previously would have crashed the simulation are now possible.
+
+---
+
 ### <p style="text-align:left;">Bow Simulator 0.3 released! <span style="float:right;">04.09.2017</span></p>
 
 ---

@@ -29,9 +29,7 @@ For more information see the screenshots and feature list below or have a look a
 
 * Create, load and save bow models
 * Specify limb profile, cross sections and many other parameters
-* Limitations for now:
-    * Only rectangular, uniform cross sections
-    * No string-to-limb contact (recurve bows)
+* Limitation for now: Only rectangular, uniform cross sections
 
 **Static and Dynamic Analysis**
 

@@ -6,7 +6,7 @@
 
 This is the main documentation for Bow Simulator. The User Manual gives you an overview of the program features, explains all input parameters and simulation results and also contains some background information.
 
-<img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 10px">[User Manual](files/user-manual.pdf)
+<img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 10px">[User Manual](files/user_manual.pdf)
 <br><br>
 
 <!--
