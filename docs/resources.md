@@ -32,15 +32,13 @@ All the common design decisions and their performance implications are explained
 It is obviously geared towards crossbows but most of it also applies to bows in general.
 <br><br>
 
-### Related Software
+### Similar Software
 
 * [*SuperTiller*](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) by Alan Case is quite an impressive Excel spreadsheet that runs a complete static analysis of a user-defined bow.
 
 * [*Woodbear's Selfbow Design Sheet [zip]*](files/woodbears-selfbow-design-sheet.zip) by David Dewey is also an Excel spreadsheet, but with a different approach: It calculates the necessary dimensions for a bow according to a user-defined stress distribution. This is a very interesting way to design a bow.
 
 * [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) is perhaps the only commercial attempt at bow design software so far. They started an Indiegogo campaign and at one point offered different kinds of licenses on their website. Unfortunately it seems to be gone now.
-
-* [*Arrowmatcher*](http://www.x-ballistics.eu) Bow Simulator doesn't do any external ballistics, that's simply out of scope for the program. If you're interested in that you might want to have a look at *Arrowmatcher*, a ballistics programs for crossbows. It can calculate arrow speed, energy and trajectory, among other things.
 
 <!--
 ### Physics of Bow and Arrow
