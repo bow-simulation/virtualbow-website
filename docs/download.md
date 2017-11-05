@@ -5,7 +5,7 @@
 
 Installer for 32 bit and 64 bit versions of Windows.
 
-<img src="../images/icon_msi.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.4-win32.exe](http://bit.ly/2zAUw92)
+<img src="../images/icon_msi.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.4-win32.exe](bit.ly/2y6l2D3)
 <br>
 <br>
 
@@ -16,9 +16,9 @@ Bow Simulator for Linux is either available as a deb package for debian based di
 ```text
 sudo snap install --dangerous bow_simulator-[...].snap
 ```
-<img src="../images/icon_deb.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.4-linux64.deb](http://bit.ly/2iy3rNU)
+<img src="../images/icon_deb.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.4-linux64.deb](bit.ly/2his4Bn)
 
-<img src="../images/icon_snap.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.4-linux64.snap](http://bit.ly/2hfWx30)
+<img src="../images/icon_snap.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.4-linux64.snap](bit.ly/2y5hD7y)
 
 <br>
 ### Old Versions
