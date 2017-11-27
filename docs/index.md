@@ -50,8 +50,8 @@ For more information see the screenshots and feature list below or have a look a
 **Command Line Interface**
 
 * Run simulations in batch mode
-* Use any programming language to automate simulations. See the [user manual](resources.md#User Manual) for a Python example.
-* This way, more advanced computations like parameter studies and design optimizations can be performed
+* Call Bow Simulator from other programs. See the [user manual](resources.md#User Manual) for a Python example.
+* Perform more advanced computations like parameter studies and design optimizations
 
 <!--
 **Fully Documented**
