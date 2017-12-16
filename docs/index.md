@@ -35,13 +35,13 @@ For more information see the screenshots and feature list below or have a look a
 
 * Simulate the statics and dynamics of the bow
 * Uses a finite element method internally
-* Some static results:
+* Static results:
     - Limb shapes
     - Draw curve
     - Stored energy
     - Stress distribution
     - ...
-* Some dynamic results:
+* Dynamic results:
     - Position, velocity and acceleration of string and arrow
     - Kinetic and potential energy
     - Degree of efficiency
@@ -50,7 +50,8 @@ For more information see the screenshots and feature list below or have a look a
 **Command Line Interface**
 
 * Run simulations in batch mode
-* Use Bow Simulator with your favourite programming language to perform things like parameter studies and numerical optimization
+* Call Bow Simulator from other programs. See the [user manual](resources.md#User Manual) for a Python example.
+* Perform more advanced computations like parameter studies and design optimizations
 
 <!--
 **Fully Documented**
