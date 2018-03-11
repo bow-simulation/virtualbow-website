@@ -3,7 +3,7 @@ image: python:3.5
 pages:
     stage: deploy
     script:
-    - pip install mkdocs==0.17.3
+    - pip install mkdocs==0.17.3 mkdocs-cinder=0.10.0
     - mkdocs build -d public
     artifacts:
         paths:
