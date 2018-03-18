@@ -2,6 +2,21 @@
 
 ---
 
+### <p style="text-align:left;">Bow Simulator 0.5 released! <span style="float:right;">18.03.2018</span></p>
+
+---
+
+The most important new feature in this release is support for laminated bows, i.e. bows that consist of multiple layers.
+This has been on the list for quite a while and allows for a much wider range of possible bow designs.
+As usual there are also various bug fixes, usability improvements and little design changes.
+
+For Windows there is now a 64 bit version available in addition to the 32 bit one.
+Download numbers will decide the fate of the 32 bit version in future releases.
+
+For Linux the distribution agnostic download is now an [AppImage](https://appimage.org/) instead of a [snap package](https://snapcraft.io/).
+
+---
+
 ### <p style="text-align:left;">Bow Simulator 0.4 released! <span style="float:right;">04.11.2017</span></p>
 
 ---

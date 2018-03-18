@@ -5,25 +5,25 @@
 
 Installer for 32 bit and 64 bit versions of Windows.
 
-<img src="../images/icon_msi.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.4-win32.exe](https://bit.ly/2y6l2D3)
+<img src="../images/icon_msi.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.5-win32.exe](http://bit.ly/2po1nLw)
+
+<img src="../images/icon_msi.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.5-win64.exe](http://bit.ly/2HJH2rK)
 <br>
 <br>
 
 ### Linux
 
-Bow Simulator for Linux is either available as a deb package for debian based distributions or as a [snap package](http://snapcraft.io/), a self-contained package that works across most of the major linux distributions. To work with snap packages you need to have [snapd](http://snapcraft.io/docs/core/install) installed on your system. You can then install Bow Simulator by typing
+Bow Simulator for Linux is either available as a deb package for debian based distributions or as a self-contained [AppImage](https://appimage.org/) which should work on most other distributions.
+The AppImage only needs to be downloaded and made executable (`chmod a+x bow_simulator*.AppImage`), no installation required.
 
-```text
-sudo snap install --dangerous bow_simulator-[...].snap
-```
-<img src="../images/icon_deb.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.4-linux64.deb](https://bit.ly/2his4Bn)
+<img src="../images/icon_deb.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.5-linux64.deb](http://bit.ly/2pmegXn)
 
-<img src="../images/icon_snap.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.4-linux64.snap](https://bit.ly/2y5hD7y)
+<img src="../images/icon_appimage.png" style="width: 25px; margin: 0px 10px 0px 0px">[bow_simulator-0.5-linux64.AppImage](http://bit.ly/2Iv0slf)
 
 <br>
 ### Old Versions
 
-All previous release files can be found on [dropbox](https://www.dropbox.com/sh/zjvtizmrafdlbdp/AADhm6O5n27l0mgC1r9NNx6Ia?dl=0&m=).
+All current and previous release files can also be found [here](https://www.dropbox.com/sh/zjvtizmrafdlbdp/AADhm6O5n27l0mgC1r9NNx6Ia?dl=0&m=).
 
 <!--
 ### Source Code

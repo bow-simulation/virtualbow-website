@@ -4,21 +4,21 @@
 ---
 
 Bow Simulator is a free, open-source software tool for bow and arrow physics simulation.
-It allows users to create virtual bow models and simulate their static and dynamic performance.
+It allows users to design virtual bows and simulate their static and dynamic performance.
 Results include things like deformation, draw curve, material stresses, arrow velocity, degree of efficiency and more.
 This way bow designs can be evaluated and optimized before actually building them.
 
-(However, please note that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.)
+Please note however that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.
 
-For more information see the screenshots and feature list below or have a look at the [user manual](resources.md). Visit the [download section](download.md) to get the latest version and subscribe to the [mailing lists](mailing-lists.md) if you want to keep up with the project.
+For more information see the feature list below or have a look at the [user manual](resources.md). Visit the [download section](download.md) to get the latest version and subscribe to the [mailing lists](mailing-lists.md) if you want to keep up with the project.
 
 ## Screenshots
 
 ---
 
-<a href="../images/screenshot_01.png" ><img src="../images/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_02.png" ><img src="../images/screenshot_02_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="../images/screenshot_03.png" ><img src="../images/screenshot_03_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
+<a href="../images/screenshot_01.png" ><img src="../images/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
+<a href="../images/screenshot_04.png" ><img src="../images/screenshot_04_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_05.png" ><img src="../images/screenshot_05_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 
 ## Features
@@ -28,8 +28,8 @@ For more information see the screenshots and feature list below or have a look a
 **Graphical Bow Editor**
 
 * Create, load and save bow models
-* Specify limb profile, cross sections and many other parameters
-* Limitation for now: Only rectangular, uniform cross sections
+* Edit profile, layers, material properties and other parameters
+
 
 **Static and Dynamic Analysis**
 
