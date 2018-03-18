@@ -16,8 +16,8 @@ For more information see the feature list below or have a look at the [user manu
 
 ---
 
-<a href="../images/screenshot_02.png" ><img src="../images/screenshot_02_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_01.png" ><img src="../images/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
+<a href="../images/screenshot_02.png" ><img src="../images/screenshot_02_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_04.png" ><img src="../images/screenshot_04_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_05.png" ><img src="../images/screenshot_05_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 
