@@ -39,7 +39,7 @@ It is obviously geared towards crossbows but most of it also applies to bows in 
 
 * [*Woodbear's Selfbow Design Sheet [zip]*](files/woodbears-selfbow-design-sheet.zip) by David Dewey is an Excel spreadsheet that calculates the necessary dimensions for a bow according to a user-defined stress distribution.
 
-* [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) was the only commercial attempt at bow design software that I know of. They started an Indiegogo campaign and even offered different kinds of licenses on their website. Unfortunately it seems to be gone now.
+* [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) by Joachim Gröger and Chris Goetz was the only commercial attempt at bow design software that I'm aware of. They started an Indiegogo campaign and at one point offered different kinds of licenses on their website. Unfortunately it seems to be gone now.
 
 * [*DrawCurve Calculator*](http://www-personal.umich.edu/~cdsnyder/drawcurve/) by Chris Snyder is a utility program for visualizing a bow's draw curve and calculating the stored energy.
 
