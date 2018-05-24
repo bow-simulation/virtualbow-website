@@ -3,14 +3,15 @@
 
 ---
 
-Bow Simulator is a free, open-source software tool for bow and arrow physics simulation.
-It allows users to design virtual bows and simulate their static and dynamic performance.
-Results include things like deformation, draw curve, material stresses, arrow velocity, degree of efficiency and more.
-This way bow designs can be evaluated and optimized before actually building them.
+Bow Simulator is a free, open-source software tool for simulating the physics of bow and arrow.
+It allows users to design virtual bows and simulate their performance.
+Results include static and dynamic characteristics such as deformation, draw curve, material stresses, arrow velocity, degree of efficiency and more.
+The ultimate goal of this project is the ability to evaluate and optimize bow designs before actually building them.
 
 Please note however that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.
 
-For more information see the feature list below or have a look at the [user manual](resources.md). Visit the [download section](download.md) to get the latest version and subscribe to the [mailing lists](mailing-lists.md) if you want to keep up with the project.
+For more information see the feature list below or have a look at the [user manual](resources.md).
+Visit the [download section](download.md) to get the latest version and subscribe to the [mailing lists](mailing-lists.md) if you want to keep up with the project.
 
 ## Screenshots
 
@@ -31,7 +32,7 @@ For more information see the feature list below or have a look at the [user manu
 * Edit profile, layers, material properties and other parameters
 
 
-**Static and Dynamic Analysis**
+**Performance Simulation**
 
 * Simulate the statics and dynamics of the bow
 * Uses a finite element method internally
