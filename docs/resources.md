@@ -4,22 +4,19 @@
 
 ### User Manual
 
-The User Manual gives an overview of the program features, explains all input parameters and simulation results and also contains some background information.
+This is the main documentation for Bow Simulator and how to use it. It gives an overview of the program features, explains all input parameters and simulation results and also contains some background information.
 
 <img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 10px">[User Manual](files/user-manual.pdf)
 <br><br>
 
-<!--
 ### Technical Documentation
 
-The Technical Documentation is geared towards developers and interested users who want to know exactly what the program is doing behind the scenes.
-It contains all the theoretical work that Bow Simulator is based on, including the considerations that led to the mathematical bow model,
-the derivation of the equations of motion and the numerical solution methods used to obtain the final results.
+The Technical Documentation is still a work in progress and intended for developers and interested users.
+It contains the theoretical aspects that Bow Simulator is based on, including the considerations that led to the mathematical bow model,
+the derivation of the equations of motion and the numerical solution methods.
 
-<img src="../img/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 10px">[Technical Documentation]()
-<br>
-<br>
--->
+<img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 10px">[Technical Documentation](files/technical-documentation.pdf)
+<br><br>
 
 ### Bow Design
 
