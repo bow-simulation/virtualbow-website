@@ -20,7 +20,7 @@ the derivation of the equations of motion and the numerical solution methods.
 
 ### Bow Design
 
-Bow Simulator can be used to evaluate specific bow designs, but it doesn't really tell you how to design a good bow.
+Simulations can be used to evaluate specific bow designs, but they don't really tell you how to design a good bow.
 If you want to learn about bow design you could have a look at the following sources:
 
 * *The Traditional Bowyer's Bible*, Volume 1, Chapter 3: *Bow Design and Performance* by Tim Baker.
