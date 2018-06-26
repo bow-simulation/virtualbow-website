@@ -12,7 +12,7 @@ This is the main documentation for Bow Simulator and how to use it. It gives an 
 ### Technical Documentation
 
 The Technical Documentation is still a work in progress and intended for developers and interested users.
-It contains the theoretical aspects that Bow Simulator is based on, including the considerations that led to the mathematical bow model,
+It contains the theoretical and technical details behind the software, including the considerations that led to the mathematical bow model,
 the derivation of the equations of motion and the numerical solution methods.
 
 <img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 10px">[Technical Documentation](files/technical-documentation.pdf)
