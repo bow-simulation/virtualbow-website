@@ -4,13 +4,13 @@
 ---
 
 Bow Simulator is a free, open-source software tool for simulating the physics of bow and arrow.
-It allows users to design virtual bows and calculate static and dynamic characteristics such as deformation, draw curve, material stresses, arrow velocity, degree of efficiency and more.
-This way bow designs can be evaluated and optimized before actually building them.
+Users can create virtual bow designs and calculate static and dynamic characteristics such as deformation, draw curve, material stresses, arrow velocity, degree of efficiency and more.
+This allows for evaluating and optimizing bow designs before actually building them.
 
-However, please note that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.
+Please note however that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.
 
-For more information see the feature list below or have a look at the [user manual](resources.md).
-Visit the [download section](download.md) to get the latest version and subscribe to the [mailing lists](mailing-lists.md) if you want to keep up with the project.
+For more detailed information see the feature list below or have a look at the [user manual](resources.md).
+Go to the [download section](download.md) to get the latest version or visit our subreddit [r/bow_simulator](https://www.reddit.com/r/bow_simulator) for news, support and discussion.
 
 ## Screenshots
 
@@ -31,7 +31,7 @@ Visit the [download section](download.md) to get the latest version and subscrib
 * Edit profile, layers, material properties and other parameters
 
 
-**Performance Simulation**
+**Static and Dynamic Simulation**
 
 * Simulate the statics and dynamics of the bow
 * Uses a finite element method internally
@@ -50,7 +50,7 @@ Visit the [download section](download.md) to get the latest version and subscrib
 **Command Line Interface**
 
 * Run simulations in batch mode
-* Call Bow Simulator from other programs. The [user manual](resources.md#User Manual) contains an example for Python.
+* Call Bow Simulator from other programs. The [user manual](resources.md#User Manual) shows an example for Python.
 * Perform parameter studies and design optimizations
 
 <!--
