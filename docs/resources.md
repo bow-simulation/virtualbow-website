@@ -4,16 +4,15 @@
 
 ### User Manual
 
-This is the main documentation for Bow Simulator and how to use it. It gives an overview of the program features, explains all input parameters and simulation results and also contains some background information.
+This is the main documentation for Bow Simulator. It gives you an overview of the program features, explains all input parameters and simulation results and contains some additional background information.
 
 <img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 10px">[User Manual](files/user-manual.pdf)
 <br><br>
 
 ### Technical Documentation
 
-The Technical Documentation is still a work in progress and intended for developers and interested users.
-It contains the theoretical and technical details behind the software, including the considerations that led to the mathematical bow model,
-the derivation of the equations of motion and the numerical solution methods.
+The Technical Documentation is still a work in progress and is intended for developers and interested users.
+It covers the theoretical and technical details behind the software like e.g. the mathematical bow model, the derivation of the equations of motion and the numerical solution methods.
 
 <img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 10px">[Technical Documentation](files/technical-documentation.pdf)
 <br><br>
@@ -32,22 +31,22 @@ It is of course geared towards crossbows but most of it also applies to bows in 
 
 ### Similar/Related Software
 
+There are several projects out there that deal with similar stuff, i.e. bow design based on physics and numerical simulation, so be sure to check them out too.
+
 * [*SuperTiller*](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) is an Excel spreadsheet made by Alan Case for simulating the statics of user-defined bows.
+It's probably one of the most well-known bow design tools.
 
-* [*Woodbear's Selfbow Design Sheet [zip]*](files/woodbears-selfbow-design-sheet.zip) by David Dewey is an Excel spreadsheet that calculates the necessary dimensions for a bow according to a user-defined stress distribution.
+* [*Woodbear's Selfbow Design Sheet* [zip]](files/woodbears-selfbow-design-sheet.zip) by David Dewey is an Excel spreadsheet that calculates the necessary dimensions for a bow according to a user-defined stress distribution.
 
-* [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) by Joachim Gröger and Chris Goetz was a commercial attempt at bow design software. They started an Indiegogo campaign and at one point offered different kinds of licenses on their website. Unfortunately it seems to be gone now.
+* [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) by Joachim Gröger and Chris Goetz was a commercial attempt at bow design software. At one point they offered different kinds of licenses on their website [http://www.bowcad.com/](http://www.bowcad.com/). Unfortunately it seems to be gone now.
 
 * [*DrawCurve Calculator*](http://www-personal.umich.edu/~cdsnyder/drawcurve/) by Chris Snyder is a utility program for visualizing a bow's draw curve and calculating the stored energy.
 
 * [*x-Ballistics*](http://www.x-ballistics.eu/cms/home/) is a browser based application that can simulate the exterior ballistics/trajectory of arrows.
+<br><br>
 
-<!--
 ### Physics of Bow and Arrow
 
-**Archery Physics**
+* [*Bob Kooi's Archery publications*](https://www.bio.vu.nl/thb/users/kooi/)
 
-* *Determining the Stiffness Properties of Bowstring Materials* by Stefan Pfeifer [(PFD)]()
-
-* *A method for static dimensioning of bows* by Stefan Pfeifer [(PDF)]()
--->
+* [*Bow and arrow dynamics* [pdf]](http://www.outlab.it/doc/marlow81.pdf)

@@ -10,9 +10,7 @@ This allows for evaluating and optimizing bow designs before actually building t
 Please note however that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.
 
 For more detailed information see the feature list below or have a look at the [user manual](resources.md).
-The latest version of the software can be found at the [download section](download.md).
-
-For news, support and general discussion visit our subreddit at [https://www.reddit.com/r/bow_simulator](https://www.reddit.com/r/bow_simulator).
+The latest version of the software can be found at the [download section](download.md). Visit [our subreddit](https://www.reddit.com/r/bow_simulator) for news, support and general discussion.
 
 ## Screenshots
 
