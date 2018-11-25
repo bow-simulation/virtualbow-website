@@ -23,7 +23,7 @@ The AppImage only needs to be downloaded and made executable (`chmod a+x bow_sim
 <br>
 ### Old Versions
 
-All current and previous release files can also be found [on dropbox](https://www.dropbox.com/sh/zjvtizmrafdlbdp/AADhm6O5n27l0mgC1r9NNx6Ia?dl=0&m=).
+All current and previous release files can be found [on dropbox](https://www.dropbox.com/sh/zjvtizmrafdlbdp/AADhm6O5n27l0mgC1r9NNx6Ia?dl=0&m=).
 
 <!--
 ### Source Code
