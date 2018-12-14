@@ -31,22 +31,20 @@ It is of course geared towards crossbows but most of it also applies to bows in 
 
 ### Similar/Related Software
 
-There are several projects out there that deal with similar stuff, i.e. bow design based on physics and numerical simulation, so be sure to check them out too.
-
-* [*SuperTiller*](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) is an Excel spreadsheet made by Alan Case for simulating the statics of user-defined bows.
+* [SuperTiller](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) is an Excel spreadsheet made by Alan Case for simulating the statics of user-defined bows.
 It's probably one of the most well-known bow design tools.
 
-* [*Woodbear's Selfbow Design Sheet* [zip]](files/woodbears-selfbow-design-sheet.zip) by David Dewey is an Excel spreadsheet that calculates the necessary dimensions for a bow according to a user-defined stress distribution.
+* [Woodbear's Selfbow Design Sheet [zip]](files/woodbears-selfbow-design-sheet.zip) by David Dewey is an Excel spreadsheet that calculates the necessary dimensions for a bow according to a user-defined stress distribution.
 
-* [*BowCAD*](https://www.indiegogo.com/projects/bowcad#/) by Joachim Gröger and Chris Goetz was a commercial attempt at bow design software. At one point they offered different kinds of licenses on their website [http://www.bowcad.com/](http://www.bowcad.com/). Unfortunately it seems to be gone now.
+* [BowCAD](https://www.indiegogo.com/projects/bowcad#/) by Joachim Gröger and Chris Goetz was a commercial attempt at bow design software. At one point they offered different kinds of licenses on their website [http://www.bowcad.com/](http://www.bowcad.com/). Unfortunately it seems to be gone now.
 
-* [*DrawCurve Calculator*](http://www-personal.umich.edu/~cdsnyder/drawcurve/) by Chris Snyder is a utility program for visualizing a bow's draw curve and calculating the stored energy.
+* [DrawCurve Calculator](http://www-personal.umich.edu/~cdsnyder/drawcurve/) by Chris Snyder is a utility program for visualizing a bow's draw curve and calculating the stored energy.
 
-* [*x-Ballistics*](http://www.x-ballistics.eu/cms/home/) is a browser based application that can simulate the exterior ballistics/trajectory of arrows.
+* [x-Ballistics](http://www.x-ballistics.eu/cms/home/) is a browser based application that can simulate the exterior ballistics/trajectory of arrows.
 <br><br>
 
 ### Physics of Bow and Arrow
 
-* [*Bob Kooi's Archery publications*](https://www.bio.vu.nl/thb/users/kooi/)
+* [Bob Kooi's Archery publications](https://www.bio.vu.nl/thb/users/kooi/)
 
-* [*Bow and arrow dynamics* [pdf]](http://www.outlab.it/doc/marlow81.pdf)
+* [Bow and arrow dynamics [pdf]](http://www.outlab.it/doc/marlow81.pdf)
