@@ -2,7 +2,7 @@
 
 ---
 
-### <p style="text-align:left;">Bow Simulator 0.5 released! <span style="float:right;">18.03.2018</span></p>
+### <p style="text-align:left;">Version 0.5 released! <span style="float:right;">18.03.2018</span></p>
 
 ---
 
@@ -17,7 +17,7 @@ For Linux the distribution agnostic download is now an [AppImage](https://appima
 
 ---
 
-### <p style="text-align:left;">Bow Simulator 0.4 released! <span style="float:right;">04.11.2017</span></p>
+### <p style="text-align:left;">Version 0.4 released! <span style="float:right;">04.11.2017</span></p>
 
 ---
 
@@ -33,7 +33,7 @@ Many bow designs that previously would have crashed the simulation are now possi
 
 ---
 
-### <p style="text-align:left;">Bow Simulator 0.3 released! <span style="float:right;">04.09.2017</span></p>
+### <p style="text-align:left;">Version 0.3 released! <span style="float:right;">04.09.2017</span></p>
 
 ---
 
@@ -44,7 +44,7 @@ The [user manual](resources.md) has been updated with detailed specifications of
 
 ---
 
-### <p style="text-align:left;">Bow Simulator 0.2 released! <span style="float:right;">06.08.2017</span></p>
+### <p style="text-align:left;">Version 0.2 released! <span style="float:right;">06.08.2017</span></p>
 
 ---
 
@@ -61,7 +61,7 @@ So in order to not delay this release any further I decided to give up on that f
 
 ---
 
-### <p style="text-align:left;">Bow Simulator 0.1 released! <span style="float:right;">25.12.2016</span></p>
+### <p style="text-align:left;">Version 0.1 released! <span style="float:right;">25.12.2016</span></p>
 
 ---
 
