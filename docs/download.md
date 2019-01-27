@@ -4,11 +4,12 @@
 
 ### <img src="../images/windows.png" style="width: 25px; margin: 0px 15px 5px 0px">Windows
 
-Installer for 32 bit and 64 bit versions of Windows.
+Installers for 32 bit and 64 bit versions of Windows 7 or later.
+
+<img src="../images/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[bow_simulator-0.5-win64.exe](http://bit.ly/2HJH2rK)
 
 <img src="../images/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[bow_simulator-0.5-win32.exe](http://bit.ly/2po1nLw)
 
-<img src="../images/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[bow_simulator-0.5-win64.exe](http://bit.ly/2HJH2rK)
 <br>
 <br>
 
