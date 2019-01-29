@@ -2,4 +2,4 @@
 
 ---
 
-Visit our subreddit [r/bow_simulator](https://www.reddit.com/r/bow_simulator) for news, support and general discussion.
+Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news, support and general discussion.
