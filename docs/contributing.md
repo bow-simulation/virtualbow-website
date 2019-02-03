@@ -16,9 +16,9 @@ And of course be sure to report any bugs or other problems you encounter.
 
 Bow Simulator is written in C++ with a Qt GUI.
 There are always many things to implement or improve, from the user interface down to the simulation model and the numerical methods.
-The source code is hosted at [https://gitlab.com/bow-simulator/bow-simulator](https://gitlab.com/bow-simulator/bow-simulator).
+The source code is hosted at [https://github.com/bow-simulation/virtualbow](https://github.com/bow-simulation/virtualbow).
 Check out the Readme for build instructions and how to contribute code.
-If you need ideas on what to work on, have a look at the [issues](https://gitlab.com/bow-simulator/bow-simulator/issues) and [milestones](https://gitlab.com/bow-simulator/bow-simulator/milestones).
+If you need ideas on what to work on, have a look at the [issues](https://github.com/bow-simulation/virtualbow/issues) and [milestones](https://github.com/bow-simulation/virtualbow/milestones).
 Or just get in contact and I will gladly help you getting started.
 
 ### Validation of Simulation Results
