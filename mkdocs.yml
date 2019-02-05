@@ -1,7 +1,7 @@
-site_name: Bow Simulator
-site_description: Bow Simulator is a free software tool for Windows and Linux that allows you to create virtual bow models and simulate their performance.
+site_name: VirtualBow
+site_description: Free software tool for Windows, Linux and Mac that allows you to design bows and simulate their performance.
 site_author: Stefan Pfeifer
-repo_url: 'https://gitlab.com/bow-simulator'
+repo_url: 'https://github.com/bow-simulation/virtualbow'
 
 # theme_dir: themes/cinder
 

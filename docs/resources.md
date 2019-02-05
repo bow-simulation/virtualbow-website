@@ -4,15 +4,15 @@
 
 ### User Manual
 
-This is the main documentation for Bow Simulator. It gives you an overview of the program features, explains all input parameters and simulation results and contains some additional background information.
+This is the user documentation for VirtualBow. It gives an overview of the program features, explains all input data and simulation results and also contains some additional background information.
 
 <img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 0px">[User Manual](files/user-manual.pdf)
 <br><br>
 
-### Technical Documentation
+### Theory Manual
 
-The Technical Documentation is still a work in progress and is intended for developers and interested users.
-It covers the theoretical and technical details behind the software like e.g. the mathematical bow model, the derivation of the equations of motion and the numerical solution methods.
+The Theory Manual is still a work in progress and is intended for developers and interested users.
+It covers the theoretical and technical details behind the software like the mathematical bow model and the numerical solution methods.
 
 <img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 0px">[Technical Documentation](files/technical-documentation.pdf)
 <br><br>
@@ -20,10 +20,10 @@ It covers the theoretical and technical details behind the software like e.g. th
 ### Bow Design
 
 Simulations can be used to evaluate specific bow designs, but they don't really tell you how to design a good bow.
-If you want to learn about bow design you could have a look at the following sources:
+These are some good resources about bow design:
 
 * *The Traditional Bowyer's Bible*, Volume 1, Chapter 3: *Bow Design and Performance* by Tim Baker.
-All the common design choices and their performance implications are explained in a very practical and understandable way.
+All the common design choices and how they affect bow performance are explained in a very practical and understandable but nonetheless precise way.
 
 * The [article on bow design](http://crossbow.wikia.com/wiki/Bow_design) from the crossbow building wiki is also a good read.
 It is of course geared towards crossbows but most of it also applies to bows in general.

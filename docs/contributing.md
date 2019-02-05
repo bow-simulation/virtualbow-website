@@ -14,7 +14,7 @@ And of course be sure to report any bugs or other problems you encounter.
 
 ### Software Development
 
-Bow Simulator is written in C++ with a Qt GUI.
+VirtualBow is written in C++ with a Qt GUI.
 There are always many things to implement or improve, from the user interface down to the simulation model and the numerical methods.
 The source code is hosted at [https://github.com/bow-simulation/virtualbow](https://github.com/bow-simulation/virtualbow).
 Check out the Readme for build instructions and how to contribute code.
@@ -24,8 +24,8 @@ Or just get in contact and I will gladly help you getting started.
 ### Validation of Simulation Results
 
 This is also a very important topic.
-If you have used this program to design a real bow, let me know how the simulation compares to reality.
+If you have used this program to design or model an existing bow, let me know how the simulation compares to reality.
 The draw curve of a bow for example is fairly easy to obtain.
 
-But many other simulation results are difficult to measure, think about material stresses for example.
-Therefore if you have access to advanced measuring equipment (things like strain gauges, acceleration sensors, a high speed camera, a tension testing machine, etc.) your help would be extremely valuable for this project.
+Many other simulation results however are difficult to measure, think about material stresses for example.
+Therefore someone with access to advanced measuring equipment (things like strain gauges, acceleration sensors, a high speed camera, a tension testing machine, etc.) would be extremely helpful for this project.
