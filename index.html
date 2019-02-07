@@ -4,32 +4,27 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bow Simulator is a free software tool for Windows and Linux that allows you to create virtual bow models and simulate their performance.">
-    <meta name="author" content="Stefan Pfeifer">
-    
-    <link rel="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="./img/favicon.ico">
 
-    
-    <title>Home - Bow Simulator</title>
-    
+    <title></title>
 
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
     <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="css/base.min.css" rel="stylesheet">
-    <link href="css/cinder.min.css" rel="stylesheet">
-    <link href="css/highlight.min.css" rel="stylesheet">
+    <link href="./css/base.css" rel="stylesheet">
+    <link href="./css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/highlight.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
 
-    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
     <script>
     WebFont.load({
         google: {
@@ -39,11 +34,9 @@
     </script>
 
     
-
-     
 </head>
 
-<body class="homepage" >
+<body>
 
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -61,7 +54,7 @@
 
             <!-- Main title -->
 
-            <a class="navbar-brand" href=".">Bow Simulator</a>
+            <a class="navbar-brand" href=".">VirtualBow</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -125,21 +118,21 @@
             <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                            <i class="fas fa-search"></i> Search
+                            <i class="fa fa-search"></i> Search
                         </a>
                     </li>
                     <li class="disabled">
                         <a rel="next" >
-                            <i class="fas fa-arrow-left"></i> Previous
+                            <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
                         <a rel="prev" href="news/">
-                            Next <i class="fas fa-arrow-right"></i>
+                            Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://gitlab.com/bow-simulator/edit/master/docs/index.md"><i class="fab fa-gitlab"></i> Edit on GitLab</a>
+                        <a href="https://github.com/bow-simulation/virtualbow/edit/master/docs/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                     </li>
             </ul>
         </div>
@@ -148,10 +141,9 @@
 
     <div class="container">
         
-        
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#bow-simulator">Bow Simulator</a></li>
+        <li class="first-level active"><a href="#virtualbow">VirtualBow</a></li>
             <li class="second-level"><a href="#screenshots">Screenshots</a></li>
                 
             <li class="second-level"><a href="#features">Features</a></li>
@@ -160,15 +152,15 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="bow-simulator">Bow Simulator</h1>
-<p><h3>Bow and arrow physics simulation for Windows and Linux</h3></p>
+<h1 id="virtualbow">VirtualBow</h1>
+<p><h3>Bow and arrow physics simulation for Windows, Linux and Mac</h3></p>
 <hr />
-<p>Bow Simulator is a free, open-source software tool for simulating the physics of bow and arrow.
-Users can create virtual bow designs and calculate static and dynamic characteristics such as deformation, draw curve, material stresses, arrow velocity, degree of efficiency and more.
-This allows for evaluating and optimizing bow designs before actually building them.</p>
+<p>VirtualBow is a free, open-source software tool for designing and simulating bows.
+It allows users to quickly and easily test new ideas and optimize their designs before actually building them.
+The simulation results include a variety of static and dynamic characteristics such as deformation, draw curve, material stresses, arrow velocity and degree of efficiency.</p>
 <p>Please note however that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.</p>
-<p>For more detailed information see the feature list below or have a look at the <a href="resources/">user manual</a>.
-The latest version of the software can be found at the <a href="download/">download section</a>. Visit <a href="https://www.reddit.com/r/VirtualBow">our subreddit</a> for news, support and general discussion.</p>
+<p>For more details see the screenshots and feature list below or have a look at the <a href="resources/">user manual</a>.
+The latest version of the software can be found at the <a href="download/">download page</a>. Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</a> for news, support and general discussion.</p>
 <h2 id="screenshots">Screenshots</h2>
 <hr />
 <p><a href="../images/screenshot_01.png" ><img src="../images/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
@@ -208,14 +200,11 @@ The latest version of the software can be found at the <a href="download/">downl
 <li>Call Bow Simulator from other programs. The <a href="resources/#User Manual">user manual</a> shows an example for Python.</li>
 <li>Perform parameter studies and design optimizations</li>
 </ul>
-<!--
-**Fully Documented**
-
-* [User Manual](resources.md#User Manual): Helps you getting started with the program.
-* [Technical Documentation](resources.md#Technical Documentation): Detailed documentation of the internal simulation methods.
-<br><br>
--->
-
+<p><strong>Fully Documented</strong></p>
+<ul>
+<li><a href="resources/#User Manual">User Manual</a>: Helps you getting started with the program.</li>
+<li><a href="resources/#Theory Manual">Theory Manual</a>: Detailed documentation of the internal simulation methods.</li>
+</ul>
 <p><strong>Free and Open-Source</strong></p>
 <ul>
 <li>Released under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License v3.0</a></li>
@@ -224,31 +213,28 @@ The latest version of the software can be found at the <a href="download/">downl
 </ul>
 <p><strong>Cross-Platform</strong></p>
 <ul>
-<li><a href="download/">Downloads</a> are available for Windows and Linux</li>
+<li><a href="download/">Downloads</a> are available for Windows, Linux and MacOS</li>
 </ul></div>
-        
         
     </div>
 
     <footer class="col-md-12 text-center">
-        
         <hr>
         <p>
         <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
-
-        
-        
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap-3.0.3.min.js"></script>
-    <script src="js/highlight.pack.js"></script>
+    <script src="./js/jquery-1.10.2.min.js"></script>
+    <script src="./js/bootstrap-3.0.3.min.js"></script>
+    <script src="./js/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script>
     var base_url = '.';
     </script>
-    <script src="js/base.js"></script>
-    <script src="search/main.js"></script>
+    <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
+    <script src="./js/base.js"></script>
+    <script src="./search/require.js"></script>
+    <script src="./search/search.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
         <div class="modal-dialog">
@@ -280,8 +266,3 @@ The latest version of the software can be found at the <a href="download/">downl
     </body>
 
 </html>
-
-<!--
-MkDocs version : 1.0.4
-Build Date UTC : 2019-02-04 11:40:27
--->
