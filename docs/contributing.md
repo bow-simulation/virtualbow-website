@@ -2,7 +2,7 @@
 
 ---
 
-There are many ways in which you can help improving this project.
+There are many ways in which you can help with this this project.
 The following sections will give you some ideas, but feel free to [contact me](contact.md) with your own ideas as well.
 Any help is appreciated!
 
@@ -12,12 +12,15 @@ Tell me what you like and dislike about the program. Was it easy to get started 
 What do you use it for? Are there specific features you wish it had?
 And of course be sure to report any bugs or other problems you encounter.
 
+If you like living on the edge, you can get the latest development versions of the program [here](https://bow-simulation.visualstudio.com/virtualbow/_build/latest?definitionId=1&branchName=develop) (click on the blue *Artifacts* button).
+Those are not recommended for serious use though, only for testing!
+
 ### Software Development
 
-VirtualBow is written in C++ with a Qt GUI.
+VirtualBow is written in C++ and uses the Qt GUI framework.
 There are always many things to implement or improve, from the user interface down to the simulation model and the numerical methods.
 The source code is hosted at [https://github.com/bow-simulation/virtualbow](https://github.com/bow-simulation/virtualbow).
-Check out the Readme for build instructions and how to contribute code.
+Check out the Readme for build instructions and how to contribute.
 If you need ideas on what to work on, have a look at the [issues](https://github.com/bow-simulation/virtualbow/issues) and [milestones](https://github.com/bow-simulation/virtualbow/milestones).
 Or just get in contact and I will gladly help you getting started.
 

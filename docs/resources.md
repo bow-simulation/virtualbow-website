@@ -4,9 +4,9 @@
 
 ### User Manual
 
-This is the user documentation for VirtualBow. It gives an overview of the program features, explains all input data and simulation results and also contains some additional background information.
+The user manual gives an overview of all program features, explains the input parameters and simulation results and also contains some additional background information.
 
-<img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 0px">[User Manual](files/user-manual.pdf)
+<img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 0px">[User Manual](files/user_manual.pdf)
 <br><br>
 
 ### Theory Manual
@@ -14,24 +14,24 @@ This is the user documentation for VirtualBow. It gives an overview of the progr
 The Theory Manual is still a work in progress and is intended for developers and interested users.
 It covers the theoretical and technical details behind the software like the mathematical bow model and the numerical solution methods.
 
-<img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 0px">[Technical Documentation](files/technical-documentation.pdf)
+<img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 0px">[Theory Manual](files/theory_manual.pdf)
 <br><br>
 
 ### Bow Design
 
-Simulations can be used to evaluate specific bow designs, but they don't really tell you how to design a good bow.
+Simulations can be used to evaluate bow designs, but they don't actually tell you how to design a good bow.
 These are some good resources about bow design:
 
 * *The Traditional Bowyer's Bible*, Volume 1, Chapter 3: *Bow Design and Performance* by Tim Baker.
-All the common design choices and how they affect bow performance are explained in a very practical and understandable but nonetheless precise way.
+All common design choices and how they affect bow performance are explained in a very practical and understandable but nonetheless precise way.
 
 * The [article on bow design](http://crossbow.wikia.com/wiki/Bow_design) from the crossbow building wiki is also a good read.
-It is of course geared towards crossbows but most of it also applies to bows in general.
+It is geared towards crossbows but most of it also applies to bows in general.
 <br><br>
 
 ### Similar/Related Software
 
-* [SuperTiller](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) is an Excel spreadsheet made by Alan Case for simulating the statics of user-defined bows.
+* [SuperTiller](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) by Alan Case is an Excel spreadsheet for simulating the statics of user-defined bows.
 It's probably one of the most well-known bow design tools.
 
 * [Woodbear's Selfbow Design Sheet [zip]](files/woodbears-selfbow-design-sheet.zip) by David Dewey is an Excel spreadsheet that calculates the necessary dimensions for a bow according to a user-defined stress distribution.

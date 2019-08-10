@@ -2,6 +2,24 @@
 
 ---
 
+### <p style="text-align:left;">Version 0.6 released! <span style="float:right;">11.08.2019</span></p>
+
+---
+
+The first thing you might notice is that this project has been renamed to *VirtualBow*.
+The old name *Bow Simulator*, even though very descriptive, was a bit uninspired and more of a placeholder anyway.
+
+This latest version now finally supports MacOS, making the software available on all major desktop systems.
+Releases for `rpm`-based linux distributions were also added. Other than that, only minor new features have been introduced, like better width/height interpolation and a more user-friendly way of defining bows with a stiff middle section.
+For a complete list of changes have a look at the new [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+
+Most of the work on this version however doesn't affect users directly.
+The project has been moved to [GitHub](https://github.com/bow-simulation/virtualbow/) and now uses [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) to automatically build release files for all supported platforms.
+This makes creating and testing new releases much less time-consuming and will hopefully lead to more frequent and regular releases in the future.
+
+
+---
+
 ### <p style="text-align:left;">Version 0.5 released! <span style="float:right;">18.03.2018</span></p>
 
 ---

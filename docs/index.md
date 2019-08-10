@@ -1,16 +1,16 @@
 # VirtualBow
-<h3>Bow and arrow physics simulation for Windows, Linux and Mac</h3>
+<h3>Bow and arrow physics simulation for Windows, Linux and MacOS</h3>
 
 ---
 
 VirtualBow is a free, open-source software tool for designing and simulating bows.
-It allows users to quickly and easily test new ideas and optimize their designs before actually building them.
-The simulation results include a variety of static and dynamic characteristics such as deformation, draw curve, material stresses, arrow velocity and degree of efficiency.
+It gives users an easy way to test and optimize their designs before actually building them.
+The simulation results include a variety of static and dynamic characteristics of the bow such as the draw curve, limb deformation, material stress, arrow velocity and degree of efficiency.
 
-Please note however that this software is still somewhat immature, so don't trust the results too much yet and report any bugs that you find.
+However, please note that this software is still somewhat immature, so don't trust the results too much and report any bugs that you find.
 
 For more details see the screenshots and feature list below or have a look at the [user manual](resources.md).
-The latest version of the software can be found at the [download page](download.md). Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news, support and general discussion.
+Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news, support and general discussion.
 
 ## Screenshots
 
@@ -18,8 +18,8 @@ The latest version of the software can be found at the [download page](download.
 
 <a href="../images/screenshot_01.png" ><img src="../images/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_02.png" ><img src="../images/screenshot_02_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
+<a href="../images/screenshot_03.png" ><img src="../images/screenshot_03_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 <a href="../images/screenshot_04.png" ><img src="../images/screenshot_04_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="../images/screenshot_05.png" ><img src="../images/screenshot_05_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 
 ## Features
 
@@ -28,7 +28,7 @@ The latest version of the software can be found at the [download page](download.
 **Graphical Bow Editor**
 
 * Create, load and save bow models
-* Edit profile, layers, material properties and other parameters
+* Edit layers, profile, material properties and other parameters
 
 
 **Static and Dynamic Simulation**
@@ -50,12 +50,12 @@ The latest version of the software can be found at the [download page](download.
 **Command Line Interface**
 
 * Run simulations in batch mode
-* Call Bow Simulator from other programs. The [user manual](resources.md#User Manual) shows an example for Python.
-* Perform parameter studies and design optimizations
+* Call VirtualBow from other programs/scripts. The [user manual](resources.md#User Manual) shows an example for Python.
+* Perform complex custom computations, like parameter studies and design optimizations
 
 **Fully Documented**
 
-* [User Manual](resources.md#User Manual): Helps you getting started with the program.
+* [User Manual](resources.md#User Manual): Documents all features of the program and helps you getting started.
 * [Theory Manual](resources.md#Theory Manual): Detailed documentation of the internal simulation methods.
 
 **Free and Open-Source**

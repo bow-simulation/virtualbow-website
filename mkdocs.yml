@@ -1,5 +1,5 @@
 site_name: VirtualBow
-site_description: Free software tool for Windows, Linux and Mac that allows you to design bows and simulate their performance.
+site_description: Software tool for designing and simulating bows
 site_author: Stefan Pfeifer
 
 repo_url: "https://github.com/bow-simulation/virtualbow/"
