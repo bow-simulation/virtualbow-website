@@ -6,9 +6,9 @@
 
 Installers for 32 bit and 64 bit versions of Windows 7 and later.
 
-<img src="../images/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-win64.exe](http://bit.ly/33B7506)
+<img src="../images/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-win64.exe](https://github.com/bow-simulation/virtualbow/releases/download/v0.6/virtualbow-0.6-win32.exe)
 <br>
-<img src="../images/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-win32.exe](http://bit.ly/2GWgeqc)
+<img src="../images/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-win32.exe](https://github.com/bow-simulation/virtualbow/releases/download/v0.6/virtualbow-0.6-win64.exe)
 <br>
 <br>
 
