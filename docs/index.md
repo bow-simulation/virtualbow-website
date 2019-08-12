@@ -16,10 +16,10 @@ Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news
 
 ---
 
-<a href="../images/screenshot_01.png" ><img src="../images/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="../images/screenshot_02.png" ><img src="../images/screenshot_02_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="../images/screenshot_03.png" ><img src="../images/screenshot_03_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="../images/screenshot_04.png" ><img src="../images/screenshot_04_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
+<a href="img/screenshot_01.png" ><img src="img/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
+<a href="img/screenshot_02.png" ><img src="img/screenshot_02_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
+<a href="img/screenshot_03.png" ><img src="img/screenshot_03_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
+<a href="img/screenshot_04.png" ><img src="img/screenshot_04_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
 
 ## Features
 

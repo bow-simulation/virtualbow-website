@@ -6,7 +6,7 @@
 
 The user manual gives an overview of all program features, explains the input parameters and simulation results and also contains some additional background information.
 
-<img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 0px">[User Manual](files/user_manual.pdf)
+<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[User Manual](files/user_manual.pdf)
 <br><br>
 
 ### Theory Manual
@@ -14,7 +14,7 @@ The user manual gives an overview of all program features, explains the input pa
 The Theory Manual is still a work in progress and is intended for developers and interested users.
 It covers the theoretical and technical details behind the software like the mathematical bow model and the numerical solution methods.
 
-<img src="../images/icon_pdf.png" style="width: 25px; margin: 0px 10px 0px 0px">[Theory Manual](files/theory_manual.pdf)
+<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[Theory Manual](files/theory_manual.pdf)
 <br><br>
 
 ### Bow Design
