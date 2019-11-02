@@ -6,9 +6,9 @@
 
 Installers for 32 bit and 64 bit versions of Windows 7 and later.
 
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-win64.exe](https://github.com/bow-simulation/virtualbow/releases/download/v0.6/virtualbow-0.6-win64.exe)
+<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6.1-win64.exe](https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-win64.exe)
 <br>
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-win32.exe](https://github.com/bow-simulation/virtualbow/releases/download/v0.6/virtualbow-0.6-win32.exe)
+<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6.1-win32.exe](https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-win32.exe)
 <br>
 <br>
 
@@ -16,7 +16,7 @@ Installers for 32 bit and 64 bit versions of Windows 7 and later.
 
 Installer image for MacOS 10.11 and later.
 
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-mac64.dmg](https://github.com/bow-simulation/virtualbow/releases/download/v0.6/virtualbow-0.6-mac64.dmg)
+<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6.1-mac64.dmg](https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-mac64.dmg)
 <br>
 <br>
 
@@ -24,11 +24,11 @@ Installer image for MacOS 10.11 and later.
 
 VirtualBow for Linux is either available as a `.deb` or `.rpm` package or as a self-contained [AppImage](https://appimage.org/) that works across distributions.
 
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-linux64.AppImage](https://github.com/bow-simulation/virtualbow/releases/download/v0.6/virtualbow-0.6-linux64.AppImage)
+<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6.1-linux64.AppImage](https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-linux64.AppImage)
 <br>
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-linux64.deb](https://github.com/bow-simulation/virtualbow/releases/download/v0.6/virtualbow-0.6-linux64.deb)
+<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6.1-linux64.deb](https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-linux64.deb)
 <br>
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6-linux64.rpm](https://github.com/bow-simulation/virtualbow/releases/download/v0.6/virtualbow-0.6-linux64.rpm)
+<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[virtualbow-0.6.1-linux64.rpm](https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-linux64.rpm)
 <br>
 <br>
 

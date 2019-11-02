@@ -2,6 +2,17 @@
 
 ---
 
+### <p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.10.2019</span></p>
+
+---
+
+This is just a minor bugfix release and only relevant if you (plan to) use the command line interface on Windows.
+It fixes an issue when trying to read the binary output files with Python.
+
+Meanwhile, work on the next major version 0.7 continues as usual.
+
+---
+
 ### <p style="text-align:left;">Version 0.6 released! <span style="float:right;">11.08.2019</span></p>
 
 ---
