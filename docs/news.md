@@ -2,7 +2,7 @@
 
 ---
 
-### <p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.10.2019</span></p>
+### <p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.11.2019</span></p>
 
 ---
 
