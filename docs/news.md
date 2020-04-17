@@ -1,7 +1,3 @@
-# News
-
----
-
 ### <p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.11.2019</span></p>
 
 ---
@@ -10,8 +6,6 @@ This is just a minor bugfix release and only relevant if you (plan to) use the c
 It fixes an issue when trying to read the binary output files with Python.
 
 Meanwhile, work on the next major version 0.7 continues as usual.
-
----
 
 ### <p style="text-align:left;">Version 0.6 released! <span style="float:right;">11.08.2019</span></p>
 
@@ -28,9 +22,6 @@ Most of the work on this version however doesn't affect users directly.
 The project has been moved to [GitHub](https://github.com/bow-simulation/virtualbow/) and now uses [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) to automatically build release files for all supported platforms.
 This makes creating and testing new releases much less time-consuming and will hopefully lead to more frequent and regular releases in the future.
 
-
----
-
 ### <p style="text-align:left;">Version 0.5 released! <span style="float:right;">18.03.2018</span></p>
 
 ---
@@ -43,8 +34,6 @@ For Windows there is now a 64 bit version available in addition to the 32 bit on
 Download numbers will decide the fate of the 32 bit version in future releases.
 
 For Linux the distribution agnostic download is now an [AppImage](https://appimage.org/) instead of a [snap package](https://snapcraft.io/).
-
----
 
 ### <p style="text-align:left;">Version 0.4 released! <span style="float:right;">04.11.2017</span></p>
 
@@ -60,8 +49,6 @@ There are also various smaller and larger bug fixes and other improvements.
 Most notably the robustness of the static simulation methods has increased a lot.
 Many bow designs that previously would have crashed the simulation are now possible.
 
----
-
 ### <p style="text-align:left;">Version 0.3 released! <span style="float:right;">04.09.2017</span></p>
 
 ---
@@ -70,8 +57,6 @@ This release introduces a new command line interface for running simulations in 
 This way Bow Simulator can be called from other programs for performing more advanced computations like parameter studies and optimizations.
 
 The [user manual](resources.md) has been updated with detailed specifications of the input and output formats and an example for using Bow Simulator with the Python programming language.
-
----
 
 ### <p style="text-align:left;">Version 0.2 released! <span style="float:right;">06.08.2017</span></p>
 
@@ -88,7 +73,6 @@ Unfortunately there is also some bad news: No more Mac OS support for now.
 I previously used a virtual machine to compile the Mac version of this program, but it stopped working and I couldn't manage to set it up again (Mac OS can be really tricky without Apple hardware).
 So in order to not delay this release any further I decided to give up on that for now.
 
----
 
 ### <p style="text-align:left;">Version 0.1 released! <span style="float:right;">25.12.2016</span></p>
 

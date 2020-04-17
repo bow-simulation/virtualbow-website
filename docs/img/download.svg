@@ -14,7 +14,7 @@
    viewBox="0 0 13.971014 13.719069"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="download.svg"
    inkscape:export-filename="/home/s/Desktop/Repositories/bow-simulator.gitlab.io/docs/images/download.png"
    inkscape:export-xdpi="88.869011"
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.2"
-     inkscape:cx="24.546871"
-     inkscape:cy="28.240428"
+     inkscape:cx="9.3850969"
+     inkscape:cy="24.875822"
      inkscape:document-units="mm"
      inkscape:current-layer="svg8"
      showgrid="true"
@@ -39,7 +39,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="999"
+     inkscape:window-height="1009"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1">
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

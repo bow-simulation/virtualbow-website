@@ -1,5 +1,8 @@
-# VirtualBow
-<h3>Bow and arrow physics simulation for Windows, Linux and MacOS</h3>
+<div>
+    <p style="float: left;"><img src="img/logo.svg" style="height: 80px; margin: 5px 20px 0px 0px"></p>
+    <h1>VirtualBow</h1>
+    <h4>Bow & Arrow Physics Simulation</h4>
+</div>
 
 ---
 

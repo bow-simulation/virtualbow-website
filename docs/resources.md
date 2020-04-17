@@ -1,23 +1,19 @@
-# Resources
-
----
-
-### User Manual
+## User Manual
 
 The user manual gives an overview of all program features, explains the input parameters and simulation results and also contains some additional background information.
 
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[User Manual](files/user_manual.pdf)
+<img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">[User Manual](files/user_manual.pdf)
 <br><br>
 
-### Theory Manual
+## Theory Manual
 
 The Theory Manual is still a work in progress and is intended for developers and interested users.
 It covers the theoretical and technical details behind the software like the mathematical bow model and the numerical solution methods.
 
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px">[Theory Manual](files/theory_manual.pdf)
+<img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">[Theory Manual](files/theory_manual.pdf)
 <br><br>
 
-### Bow Design
+## Bow Design
 
 Simulations can be used to evaluate bow designs, but they don't actually tell you how to design a good bow.
 These are some good resources about bow design:
@@ -29,7 +25,7 @@ All common design choices and how they affect bow performance are explained in a
 It is geared towards crossbows but most of it also applies to bows in general.
 <br><br>
 
-### Similar/Related Software
+## Similar/Related Software
 
 * [SuperTiller](http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/) by Alan Case is an Excel spreadsheet for simulating the statics of user-defined bows.
 It's probably one of the most well-known bow design tools.
@@ -43,7 +39,7 @@ It's probably one of the most well-known bow design tools.
 * [x-Ballistics](http://www.x-ballistics.eu/cms/home/) is a browser based application that can simulate the exterior ballistics/trajectory of arrows.
 <br><br>
 
-### Physics of Bow and Arrow
+## Physics of Bow and Arrow
 
 * [Bob Kooi's Archery publications](https://www.bio.vu.nl/thb/users/kooi/)
 
