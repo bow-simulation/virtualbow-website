@@ -65,7 +65,7 @@ Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news
 
 * Released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl.html)
 * Free to use, modify and redistribute
-* Anyone can [get involved](contributing.md) in the development
+* Anyone can [get involved](about.md) in the development
 
 **Cross-Platform**
 
