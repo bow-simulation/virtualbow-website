@@ -1,183 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Stefan Pfeifer">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Resources - VirtualBow</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Software tool for designing and simulating bows">
-    <meta name="author" content="Stefan Pfeifer">
-    
-    <link rel="../img/favicon.ico">
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
 
-    
-    <title>Resources - VirtualBow</title>
-    
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="..">VirtualBow</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
-    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="../css/base.min.css" rel="stylesheet">
-    <link href="../css/cinder.min.css" rel="stylesheet">
-    <link href="../css/highlight.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-        <![endif]-->
-
-    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-    WebFont.load({
-        google: {
-            families: ['Open Sans', 'PT Sans']
-        }
-    });
-    </script>
-
-    
-
-     
-</head>
-
-<body>
-
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            
-
-            <!-- Main title -->
-
-            <a class="navbar-brand" href="..">VirtualBow</a>
-        </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                
-                
-                    <li >
-                        <a href="..">Home</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../news/">News</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../download/">Download</a>
-                    </li>
-                
-                
-                
-                    <li class="active">
-                        <a href="./">Resources</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../discussion/">Discussion</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../contributing/">Getting Involved</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../contact/">Contact</a>
-</li>
-
-                        
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../news/" class="nav-link">News</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../download/" class="nav-link">Download</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Resources</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../about/" class="nav-link">About</a>
+                            </li>
                         </ul>
-                    </li>
-                
-                
-                </ul>
 
-            <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                            <i class="fas fa-search"></i> Search
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../download/">
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="../discussion/">
-                            Next <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/bow-simulation/virtualbow/"><i class="fab fa-github"></i> GitHub</a>
-                    </li>
-            </ul>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../download/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../about/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/bow-simulation/virtualbow/" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
-    <div class="container">
-        
-        
-        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#resources">Resources</a></li>
-            <li class="second-level"><a href="#user-manual">User Manual</a></li>
-                
-            <li class="second-level"><a href="#theory-manual">Theory Manual</a></li>
-                
-            <li class="second-level"><a href="#bow-design">Bow Design</a></li>
-                
-            <li class="second-level"><a href="#similarrelated-software">Similar/Related Software</a></li>
-                
-            <li class="second-level"><a href="#physics-of-bow-and-arrow">Physics of Bow and Arrow</a></li>
-                
-    </ul>
-</div></div>
-        <div class="col-md-9" role="main">
+        <div class="container">
+            <div class="row">
+    <div class="col-md-12" role="main">
 
-<h1 id="resources">Resources</h1>
-<hr />
-<h3 id="user-manual">User Manual</h3>
+<h2 id="user-manual">User Manual</h2>
 <p>The user manual gives an overview of all program features, explains the input parameters and simulation results and also contains some additional background information.</p>
-<p><img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px"><a href="../files/user_manual.pdf">User Manual</a>
+<p><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px"><a href="../files/user_manual.pdf">User Manual</a>
 <br><br></p>
-<h3 id="theory-manual">Theory Manual</h3>
+<h2 id="theory-manual">Theory Manual</h2>
 <p>The Theory Manual is still a work in progress and is intended for developers and interested users.
 It covers the theoretical and technical details behind the software like the mathematical bow model and the numerical solution methods.</p>
-<p><img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px"><a href="../files/theory_manual.pdf">Theory Manual</a>
+<p><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px"><a href="../files/theory_manual.pdf">Theory Manual</a>
 <br><br></p>
-<h3 id="bow-design">Bow Design</h3>
+<h2 id="bow-design">Bow Design</h2>
 <p>Simulations can be used to evaluate bow designs, but they don't actually tell you how to design a good bow.
 These are some good resources about bow design:</p>
 <ul>
@@ -191,7 +101,7 @@ It is geared towards crossbows but most of it also applies to bows in general.
 <br><br></p>
 </li>
 </ul>
-<h3 id="similarrelated-software">Similar/Related Software</h3>
+<h2 id="similarrelated-software">Similar/Related Software</h2>
 <ul>
 <li>
 <p><a href="http://www.buildyourownbow.com/build-alongs/how-to-use-supertiller-build-along/">SuperTiller</a> by Alan Case is an Excel spreadsheet for simulating the statics of user-defined bows.
@@ -211,7 +121,7 @@ It's probably one of the most well-known bow design tools.</p>
 <br><br></p>
 </li>
 </ul>
-<h3 id="physics-of-bow-and-arrow">Physics of Bow and Arrow</h3>
+<h2 id="physics-of-bow-and-arrow">Physics of Bow and Arrow</h2>
 <ul>
 <li>
 <p><a href="https://www.bio.vu.nl/thb/users/kooi/">Bob Kooi's Archery publications</a></p>
@@ -220,29 +130,22 @@ It's probably one of the most well-known bow design tools.</p>
 <p><a href="http://www.outlab.it/doc/marlow81.pdf">Bow and arrow dynamics [pdf]</a></p>
 </li>
 </ul></div>
-        
-        
-    </div>
 
-    <footer class="col-md-12 text-center">
-        
-        <hr>
-        <p>
-        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+            </div>
+        </div>
 
-        
-        
-    </footer>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../js/bootstrap-3.0.3.min.js"></script>
-    <script src="../js/highlight.pack.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script>var base_url = ".."</script>
-    
-    <script src="../js/base.js"></script>
-    <script src="../search/main.js"></script>
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
-    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -305,6 +208,6 @@ It's probably one of the most well-known bow design tools.</p>
         </div>
     </div>
 </div>
-    </body>
 
+    </body>
 </html>

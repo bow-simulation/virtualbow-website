@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Software tool for designing and simulating bows">
+        
         <meta name="author" content="Stefan Pfeifer">
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>VirtualBow</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>About - VirtualBow</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href=".">VirtualBow</a>
+                <a class="navbar-brand" href="..">VirtualBow</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,20 +33,20 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../news/" class="nav-link">News</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../download/" class="nav-link">Download</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../resources/" class="nav-link">Resources</a>
+                            </li>
                             <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="news/" class="nav-link">News</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="download/" class="nav-link">Download</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="resources/" class="nav-link">Resources</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="about/" class="nav-link">About</a>
+                                <a href="./" class="nav-link">About</a>
                             </li>
                         </ul>
 
@@ -57,12 +57,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href="../resources/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="news/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -78,73 +78,32 @@
             <div class="row">
     <div class="col-md-12" role="main">
 
-<div>
-    <p style="float: left;"><img src="img/logo.svg" style="height: 80px; margin: 5px 20px 0px 0px"></p>
-    <h1>VirtualBow</h1>
-    <h4>Bow & Arrow Physics Simulation</h4>
-</div>
-
-<hr />
-<p>VirtualBow is a free, open-source software tool for designing and simulating bows.
-It gives users an easy way to test and optimize their designs before actually building them.
-The simulation results include a variety of static and dynamic characteristics of the bow such as the draw curve, limb deformation, material stress, arrow velocity and degree of efficiency.</p>
-<p>However, please note that this software is still somewhat immature, so don't trust the results too much and report any bugs that you find.</p>
-<p>For more details see the screenshots and feature list below or have a look at the <a href="resources/">user manual</a>.
-Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</a> for news, support and general discussion.</p>
-<h2 id="screenshots">Screenshots</h2>
-<hr />
-<p><a href="img/screenshot_01.png" ><img src="img/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="img/screenshot_02.png" ><img src="img/screenshot_02_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="img/screenshot_03.png" ><img src="img/screenshot_03_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="img/screenshot_04.png" ><img src="img/screenshot_04_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a></p>
-<h2 id="features">Features</h2>
-<hr />
-<p><strong>Graphical Bow Editor</strong></p>
-<ul>
-<li>Create, load and save bow models</li>
-<li>Edit layers, profile, material properties and other parameters</li>
-</ul>
-<p><strong>Static and Dynamic Simulation</strong></p>
-<ul>
-<li>Simulate the statics and dynamics of the bow</li>
-<li>Uses a finite element method internally</li>
-<li>Static results:<ul>
-<li>Limb shapes</li>
-<li>Draw curve</li>
-<li>Stored energy</li>
-<li>Stress distribution</li>
-<li>...</li>
-</ul>
-</li>
-<li>Dynamic results:<ul>
-<li>Position, velocity and acceleration of string and arrow</li>
-<li>Kinetic and potential energy</li>
-<li>Degree of efficiency</li>
-<li>...</li>
-</ul>
-</li>
-</ul>
-<p><strong>Command Line Interface</strong></p>
-<ul>
-<li>Run simulations in batch mode</li>
-<li>Call VirtualBow from other programs/scripts. The <a href="resources/#User Manual">user manual</a> shows an example for Python.</li>
-<li>Perform complex custom computations, like parameter studies and design optimizations</li>
-</ul>
-<p><strong>Fully Documented</strong></p>
-<ul>
-<li><a href="resources/#User Manual">User Manual</a>: Documents all features of the program and helps you getting started.</li>
-<li><a href="resources/#Theory Manual">Theory Manual</a>: Detailed documentation of the internal simulation methods.</li>
-</ul>
-<p><strong>Free and Open-Source</strong></p>
-<ul>
-<li>Released under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License v3.0</a></li>
-<li>Free to use, modify and redistribute</li>
-<li>Anyone can <a href="contributing.md">get involved</a> in the development</li>
-</ul>
-<p><strong>Cross-Platform</strong></p>
-<ul>
-<li><a href="download/">Downloads</a> are available for Windows, Linux and MacOS</li>
-</ul></div>
+<h2 id="contact-and-support">Contact and Support</h2>
+<p>This project is maintained by Stefan Pfeifer. Feel free to contact me at <a href="mailto:Stefan Pfeifer&lt;s-pfeifer@gmx.net&gt;">s-pfeifer@gmx.net</a>.</p>
+<p>Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</a> for news, support and general discussion.
+<br>
+<br></p>
+<h2 id="getting-involved">Getting Involved</h2>
+<p>There are many ways in which you can help with this this project.
+The following sections will give you some ideas, but feel free to contact me with your own ideas as well.
+Any help is appreciated!</p>
+<h4 id="feedback-feature-requests-and-bug-reports">Feedback, Feature Requests and Bug Reports</h4>
+<p>Tell me what you like and dislike about the program. Was it easy to get started with?
+What do you use it for? Are there specific features you wish it had?
+And of course be sure to report any bugs or other problems you encounter.</p>
+<h4 id="software-development">Software Development</h4>
+<p>VirtualBow is written in C++ and uses the Qt GUI framework.
+There are always many things to implement or improve, from the user interface down to the simulation model and the numerical methods.
+The source code is hosted at <a href="https://github.com/bow-simulation/virtualbow">https://github.com/bow-simulation/virtualbow</a>.
+Check out the Readme for build instructions and how to contribute.
+If you need ideas on what to work on, have a look at the <a href="https://github.com/bow-simulation/virtualbow/issues">issues</a> and <a href="https://github.com/bow-simulation/virtualbow/milestones">milestones</a>.
+Or just get in contact and I will gladly help you getting started.</p>
+<h4 id="validation-of-simulation-results">Validation of Simulation Results</h4>
+<p>This is a very important topic.
+If you have used this program to design or model an existing bow, let me know how the simulation compares to reality.
+The draw curve of a bow for example is fairly easy to obtain.</p>
+<p>Many other simulation results however are difficult to measure, think about material stresses for example.
+Therefore someone with access to advanced measuring equipment (things like strain gauges, acceleration sensors, a high speed camera, etc.) would be extremely helpful for this project.</p></div>
 
             </div>
         </div>
@@ -154,11 +113,11 @@ Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -226,8 +185,3 @@ Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.1
-Build Date UTC : 2020-04-17 14:42:38
--->

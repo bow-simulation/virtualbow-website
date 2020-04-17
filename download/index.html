@@ -1,217 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Stefan Pfeifer">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Download - VirtualBow</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Software tool for designing and simulating bows">
-    <meta name="author" content="Stefan Pfeifer">
-    
-    <link rel="../img/favicon.ico">
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
 
-    
-    <title>Download - VirtualBow</title>
-    
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="..">VirtualBow</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
-    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="../css/base.min.css" rel="stylesheet">
-    <link href="../css/cinder.min.css" rel="stylesheet">
-    <link href="../css/highlight.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-        <![endif]-->
-
-    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-    WebFont.load({
-        google: {
-            families: ['Open Sans', 'PT Sans']
-        }
-    });
-    </script>
-
-    
-
-     
-</head>
-
-<body>
-
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            
-
-            <!-- Main title -->
-
-            <a class="navbar-brand" href="..">VirtualBow</a>
-        </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                
-                
-                    <li >
-                        <a href="..">Home</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../news/">News</a>
-                    </li>
-                
-                
-                
-                    <li class="active">
-                        <a href="./">Download</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../resources/">Resources</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../discussion/">Discussion</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../contributing/">Getting Involved</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../contact/">Contact</a>
-</li>
-
-                        
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../news/" class="nav-link">News</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Download</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../resources/" class="nav-link">Resources</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../about/" class="nav-link">About</a>
+                            </li>
                         </ul>
-                    </li>
-                
-                
-                </ul>
 
-            <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                            <i class="fas fa-search"></i> Search
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../news/">
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="../resources/">
-                            Next <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/bow-simulation/virtualbow/"><i class="fab fa-github"></i> GitHub</a>
-                    </li>
-            </ul>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../news/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../resources/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/bow-simulation/virtualbow/" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
-    <div class="container">
-        
-        
-        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#download">Download</a></li>
-            <li class="second-level"><a href="#windows">Windows</a></li>
-                
-            <li class="second-level"><a href="#macos">MacOS</a></li>
-                
-            <li class="second-level"><a href="#linux">Linux</a></li>
-                
-            <li class="second-level"><a href="#older-versions">Older versions</a></li>
-                
-    </ul>
-</div></div>
-        <div class="col-md-9" role="main">
+        <div class="container">
+            <div class="row">
+    <div class="col-md-12" role="main">
 
-<h1 id="download">Download</h1>
-<hr />
-<h3 id="windows"><img src="../img/windows.png" style="width: 25px; margin: 0px 15px 5px 0px">Windows</h3>
+<h2 id="windows"><img src="../img/windows.svg" style="width: 25px; margin: 0px 15px 5px 0px">Windows</h2>
 <p>Installers for 32 bit and 64 bit versions of Windows 7 and later.</p>
-<p><img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-win64.exe">virtualbow-0.6.1-win64.exe</a>
+<p><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-win64.exe">virtualbow-0.6.1-win64.exe</a>
 <br>
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-win32.exe">virtualbow-0.6.1-win32.exe</a>
+<img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-win32.exe">virtualbow-0.6.1-win32.exe</a>
 <br>
 <br></p>
-<h3 id="macos"><img src="../img/apple.png" style="width: 25px; margin: 0px 15px 10px 0px">MacOS</h3>
+<h2 id="macos"><img src="../img/apple.svg" style="width: 25px; margin: 0px 15px 10px 0px">MacOS</h2>
 <p>Installer image for MacOS 10.11 and later.</p>
-<p><img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-mac64.dmg">virtualbow-0.6.1-mac64.dmg</a>
+<p><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-mac64.dmg">virtualbow-0.6.1-mac64.dmg</a>
 <br>
 <br></p>
-<h3 id="linux"><img src="../img/linux.png" style="width: 25px; margin: 0px 15px 5px 0px">Linux</h3>
+<h2 id="linux"><img src="../img/linux.svg" style="width: 25px; margin: 0px 15px 5px 0px">Linux</h2>
 <p>VirtualBow for Linux is either available as a <code>.deb</code> or <code>.rpm</code> package or as a self-contained <a href="https://appimage.org/">AppImage</a> that works across distributions.</p>
-<p><img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-linux64.AppImage">virtualbow-0.6.1-linux64.AppImage</a>
+<p><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-linux64.AppImage">virtualbow-0.6.1-linux64.AppImage</a>
 <br>
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-linux64.deb">virtualbow-0.6.1-linux64.deb</a>
+<img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-linux64.deb">virtualbow-0.6.1-linux64.deb</a>
 <br>
-<img src="../img/download.png" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-linux64.rpm">virtualbow-0.6.1-linux64.rpm</a>
+<img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px"><a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.6.1/virtualbow-0.6.1-linux64.rpm">virtualbow-0.6.1-linux64.rpm</a>
 <br>
 <br></p>
-<h3 id="older-versions">Older versions</h3>
+<h2 id="older-versions">Older versions</h2>
 <p>All current and previous versions can also be found on <a href="https://github.com/bow-simulation/virtualbow/releases">GitHub</a>.</p></div>
-        
-        
-    </div>
 
-    <footer class="col-md-12 text-center">
-        
-        <hr>
-        <p>
-        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+            </div>
+        </div>
 
-        
-        
-    </footer>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../js/bootstrap-3.0.3.min.js"></script>
-    <script src="../js/highlight.pack.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script>var base_url = ".."</script>
-    
-    <script src="../js/base.js"></script>
-    <script src="../search/main.js"></script>
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
-    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -274,6 +179,6 @@
         </div>
     </div>
 </div>
-    </body>
 
+    </body>
 </html>
