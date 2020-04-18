@@ -3,6 +3,7 @@
 This project is maintained by Stefan Pfeifer. Feel free to contact me at [s-pfeifer@gmx.net](mailto:Stefan Pfeifer<s-pfeifer@gmx.net>).
 You can also visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news, support and general discussion.
 <br>
+<br>
 
 ## Getting Involved
 
