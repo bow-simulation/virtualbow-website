@@ -2,24 +2,24 @@ a.downloadlink:link, a.downloadlink:visited {
   color: #444444;
   border: 1px solid #b3b3b3;
   border-radius: 10px;
-  background-color: white;
+  background-color: #e6ecff;
   padding: 3px 0px 3px 12px;
   margin: 3px 0px;
   text-align: left;
   text-decoration: none;
   display: inline-block;
-  width: 180px;
+  width: 165px;
 }
 
 a.downloadlink:hover, a.downloadlink:active {
-  background-color: #e6ecff;
+  background-color: #b3c6ff;
 }
 
 a.imagelink:link, a.imagelink:visited {
   color: #444444;
   border: 1px solid #b3b3b3;
   border-radius: 10px;
-  background-color: white;
+  background-color: #e6ecff;
   padding: 10px;
   margin: 15px 10px 15px 0px;
   text-align: left;
@@ -28,5 +28,5 @@ a.imagelink:link, a.imagelink:visited {
 }
 
 a.imagelink:hover, a.imagelink:active {
-  background-color: #e6ecff;
+  background-color: #b3c6ff;
 }
