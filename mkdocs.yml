@@ -5,11 +5,14 @@ site_author: Stefan Pfeifer
 repo_url: "https://github.com/bow-simulation/virtualbow/"
 edit_uri: ""
 
+extra_css:
+    - extra.css
+
 theme:
     name: mkdocs
     nav_style: light
     custom_dir: custom_theme
-    
+
 nav:
     - Home: index.md
     - News: news.md

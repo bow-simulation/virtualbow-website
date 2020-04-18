@@ -15,14 +15,10 @@ However, please note that this software is still somewhat immature, so don't tru
 For more details see the screenshots and feature list below or have a look at the [user manual](resources.md).
 Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news, support and general discussion.
 
-## Screenshots
-
----
-
-<a href="img/screenshot_01.png" ><img src="img/screenshot_01_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="img/screenshot_02.png" ><img src="img/screenshot_02_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="img/screenshot_03.png" ><img src="img/screenshot_03_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
-<a href="img/screenshot_04.png" ><img src="img/screenshot_04_thumb.png" style="height: 100px; margin: 5px 10px 5px 10px"></a>
+<a href="img/screenshot_01.png" class="imagelink"><img src="img/screenshot_01_thumb.png" style="height: 100px"></a>
+<a href="img/screenshot_02.png" class="imagelink"><img src="img/screenshot_02_thumb.png" style="height: 100px"></a>
+<a href="img/screenshot_03.png" class="imagelink"><img src="img/screenshot_03_thumb.png" style="height: 100px"></a>
+<a href="img/screenshot_04.png" class="imagelink"><img src="img/screenshot_04_thumb.png" style="height: 100px"></a>
 
 ## Features
 
