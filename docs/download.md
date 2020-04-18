@@ -9,7 +9,7 @@ Installers for 32 bit and 64 bit versions of Windows 7 and later.
 <br>
 <br>
 
-## <img src="../img/linux.svg" style="width: 25px; margin: 0px 15px 5px 0px">Linux
+## <img src="../img/linux.svg" style="width: 28px; margin: 0px 15px 5px 0px">Linux
 
 ---
 
