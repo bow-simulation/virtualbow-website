@@ -11,7 +11,6 @@ It gives users an easy way to test and optimize their designs before actually bu
 The simulation results include a variety of static and dynamic characteristics of the bow such as the draw curve, limb deformation, material stress, arrow velocity and degree of efficiency.
 
 However, please note that this software is still somewhat immature, so don't trust the results too much and report any bugs that you find.
-
 For more details see the screenshots and feature list below or have a look at the [user manual](resources.md).
 Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news, support and general discussion.
 
