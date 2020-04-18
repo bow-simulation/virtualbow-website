@@ -1,3 +1,7 @@
+.container {
+    max-width: 960px;
+}
+
 a.downloadlink:link, a.downloadlink:visited {
   color: #444444;
   border: 1px solid #b3b3b3;
