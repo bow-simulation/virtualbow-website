@@ -18,8 +18,8 @@ It covers the theoretical and technical details behind the software like the mat
 Simulations can be used to evaluate bow designs, but they don't actually tell you how to design a good bow.
 These are some good resources about bow design:
 
-* *The Traditional Bowyer's Bible*, Volume 1, Chapter 3: *Bow Design and Performance* by Tim Baker.
-All common design choices and how they affect bow performance are explained in a very practical and understandable but nonetheless precise way.
+* [The Traditional Bowyer's Bible, Volume 1](https://books.google.com/books?id=2O0amwEACAAJ), Chapter 3: *Bow Design and Performance* by Tim Baker.
+In this chapter, all the common design choices and how they affect bow performance are explained in a very practical and understandable way.
 
 * The [article on bow design](http://crossbow.wikia.com/wiki/Bow_design) from the crossbow building wiki is also a good read.
 It is geared towards crossbows but most of it also applies to bows in general.
@@ -32,7 +32,7 @@ It's probably one of the most well-known bow design tools.
 
 * [Woodbear's Selfbow Design Sheet [zip]](files/woodbears-selfbow-design-sheet.zip) by David Dewey is an Excel spreadsheet that calculates the necessary dimensions for a bow according to a user-defined stress distribution.
 
-* [BowCAD](https://www.indiegogo.com/projects/bowcad#/) by Joachim Gröger and Chris Goetz was a commercial attempt at bow design software. At one point they were even offering different kinds of licenses on their website [http://www.bowcad.com/](http://www.bowcad.com/). Unfortunately it seems to be no longer available.
+* [BowCAD](https://www.indiegogo.com/projects/bowcad#/) by Joachim Gröger and Chris Goetz was a commercial attempt at bow design software. Unfortunately the software as well as their website [http://www.bowcad.com/](http://www.bowcad.com/) seem to be no longer available. An archived version can be viewed [here](https://web.archive.org/web/20141219170039/http://www.bowcad.com/?page_id=69).
 
 * [DrawCurve Calculator](http://www-personal.umich.edu/~cdsnyder/drawcurve/) by Chris Snyder is a utility program for visualizing a bow's draw curve and calculating the stored energy.
 
@@ -44,3 +44,5 @@ It's probably one of the most well-known bow design tools.
 * [Bob Kooi's Archery publications](https://www.bio.vu.nl/thb/users/kooi/)
 
 * [Bow and arrow dynamics [pdf]](http://www.outlab.it/doc/marlow81.pdf)
+
+* [Archery: The Technical Side](https://books.google.com/books?id=fa0FPQAACAAJ)
