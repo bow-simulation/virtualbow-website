@@ -23,16 +23,18 @@ Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news
 
 ---
 
-**Graphical Bow Editor**
+**Model Editor**
 
 * Create, load and save bow models
-* Edit layers, profile, material properties and other parameters
+* Edit layers, material properties and other parameters
 
+**Solver**
 
-**Static and Dynamic Simulation**
+* Simulates the statics and dynamics of the bow
+* Uses the finite element method (FEM)
 
-* Simulate the statics and dynamics of the bow
-* Uses a finite element method internally
+**Result Viewer**
+
 * Static results:
     - Limb shapes
     - Draw curve
@@ -47,14 +49,13 @@ Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news
 
 **Command Line Interface**
 
-* Run simulations in batch mode
-* Call VirtualBow from other programs/scripts. The [user manual](resources.md#User Manual) shows an example for Python.
-* Perform complex custom computations, like parameter studies and design optimizations
+* Run simulations from the command line
+* Call VirtualBow from other programs/scripts to perform parameter studies and design optimizations
 
 **Fully Documented**
 
-* [User Manual](resources.md#User Manual): Documents all features of the program and helps you getting started.
-* [Theory Manual](resources.md#Theory Manual): Detailed documentation of the internal simulation methods.
+* [User Manual](resources.md#User Manual): Explains all features of the program and helps you getting started
+* [Theory Manual](resources.md#Theory Manual): Detailed documentation of the internal simulation methods
 
 **Free and Open-Source**
 

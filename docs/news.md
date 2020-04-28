@@ -1,3 +1,24 @@
+### <p style="text-align:left;">Version 0.7 released! <span style="float:right;">28.05.2020</span></p>
+
+---
+
+Most of the changes in this version of VirtualBow are about the user interface.
+Following the example of most other professional simulation software, the application has been split into three separate components:
+
+* *VirtualBow GUI* - Create, load and save model files (`.bow`)
+* *VirtualBow Post* - Open and visualize result files (`.res`)
+* *VirtualBow Solver* - Takes a model file, performs a simulation and produces a result file
+
+The basic workflow of the program is still very similar, but it is now also possible to save and view simulation results independently from the main application. Other than that there are many improvements to the user interfaces of both *GUI* and *Post*.
+On the simulation side, several new output results were added, as well as the possibility to take the damping properties of limbs and string into account.
+
+Since Windows 7 reached its end of life in January this year, it is no longer a supported platform for VirtualBow.
+Along with that, the 32 bit Windows version was also dropped from the releases.
+Another release that unfortunately had to be dropped is the AppImage for Linux.
+The approach "one application - one file" just doesn't work very well anymore with the new components.
+Hopefully most users can switch to the `deb` or `rpm` packages.
+Sorry for any inconvenience this may cause!
+
 ### <p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.11.2019</span></p>
 
 ---
@@ -15,7 +36,7 @@ The first thing you might notice is that this project has been renamed to *Virtu
 The old name *Bow Simulator*, even though very descriptive, was a bit uninspired and more of a placeholder anyway.
 
 This latest version now finally supports MacOS, making the software available on all major desktop systems.
-Releases for `rpm`-based linux distributions were also added. Other than that, only minor new features have been introduced, like better width/height interpolation and a more user-friendly way of defining bows with a stiff middle section.
+Releases for `rpm`-based Linux distributions were also added. Other than that, only minor new features have been introduced, like better width/height interpolation and a more user-friendly way of defining bows with a stiff middle section.
 For a complete list of changes have a look at the new [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
 
 Most of the work on this version however doesn't affect users directly.
@@ -62,7 +83,7 @@ The [user manual](resources.md) has been updated with detailed specifications of
 
 ---
 
-Did I say the previous version was a complete redesign? Well, here's another one.
+This is another fairly extensive redesign of the user interface.
 This time the changes are
 
 * A new tree based bow editor
