@@ -79,6 +79,24 @@
             <div class="row">
     <div class="col-md-12" role="main">
 
+<h3 id="version-07-released-28052020"><p style="text-align:left;">Version 0.7 released! <span style="float:right;">28.05.2020</span></p></h3>
+<hr />
+<p>The most notable change in this new version of VirtualBow is that the application has been split into the following three independent components:</p>
+<ul>
+<li><em>VirtualBow</em> - Model editor, creates, loads and saves model files</li>
+<li><em>VirtualBow Post</em> - Result viewer, opens and visualizes result files</li>
+<li><em>VirtualBow Solver</em> - Reads a model file and produces a result file</li>
+</ul>
+<p>The basic workflow of the program is still very similar, but it is now also possible to save and view simulation results independently from the main application.
+Other than that there are many smaller improvements to the user interfaces of both model editor and result viewer.
+On the simulation side, several new output results were added, as well as the possibility to take the damping properties of limbs and string into account.</p>
+<p>Since Windows 7 reached its end of life in January this year, it is no longer a supported platform for VirtualBow.
+Along with that, the 32 bit Windows version was also dropped from the releases.
+Another release that unfortunately had to be dropped is the AppImage for Linux.
+The approach "one application - one file" just doesn't work very well anymore with the new components.
+Hopefully most users can switch to the <code>deb</code> or <code>rpm</code> packages.
+Sorry for any inconvenience this may cause!</p>
+<p>As always, a detailed list of changes can be found in the <a href="https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md">changelog</a>.</p>
 <h3 id="version-061-released-02112019"><p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.11.2019</span></p></h3>
 <hr />
 <p>This is just a minor bugfix release and only relevant if you (plan to) use the command line interface on Windows.
@@ -89,7 +107,7 @@ It fixes an issue when trying to read the binary output files with Python.</p>
 <p>The first thing you might notice is that this project has been renamed to <em>VirtualBow</em>.
 The old name <em>Bow Simulator</em>, even though very descriptive, was a bit uninspired and more of a placeholder anyway.</p>
 <p>This latest version now finally supports MacOS, making the software available on all major desktop systems.
-Releases for <code>rpm</code>-based linux distributions were also added. Other than that, only minor new features have been introduced, like better width/height interpolation and a more user-friendly way of defining bows with a stiff middle section.
+Releases for <code>rpm</code>-based Linux distributions were also added. Other than that, only minor new features have been introduced, like better width/height interpolation and a more user-friendly way of defining bows with a stiff middle section.
 For a complete list of changes have a look at the new <a href="https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md">changelog</a>.</p>
 <p>Most of the work on this version however doesn't affect users directly.
 The project has been moved to <a href="https://github.com/bow-simulation/virtualbow/">GitHub</a> and now uses <a href="https://azure.microsoft.com/en-us/services/devops/pipelines/">Azure Pipelines</a> to automatically build release files for all supported platforms.
@@ -120,7 +138,7 @@ This way Bow Simulator can be called from other programs for performing more adv
 <p>The <a href="../resources/">user manual</a> has been updated with detailed specifications of the input and output formats and an example for using Bow Simulator with the Python programming language.</p>
 <h3 id="version-02-released-06082017"><p style="text-align:left;">Version 0.2 released! <span style="float:right;">06.08.2017</span></p></h3>
 <hr />
-<p>Did I say the previous version was a complete redesign? Well, here's another one.
+<p>This is another fairly extensive redesign of the user interface.
 This time the changes are</p>
 <ul>
 <li>A new tree based bow editor</li>
