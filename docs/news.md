@@ -2,14 +2,14 @@
 
 ---
 
-Most of the changes in this version of VirtualBow are about the user interface.
-Following the example of most other professional simulation software, the application has been split into three separate components:
+The most notable change in this new version of VirtualBow is that the application has been split into the following three independent components:
 
-* *VirtualBow GUI* - Create, load and save model files (`.bow`)
-* *VirtualBow Post* - Open and visualize result files (`.res`)
-* *VirtualBow Solver* - Takes a model file, performs a simulation and produces a result file
+* *VirtualBow* - Model editor, creates, loads and saves model files
+* *VirtualBow Post* - Result viewer, opens and visualizes result files
+* *VirtualBow Solver* - Reads a model file and produces a result file
 
-The basic workflow of the program is still very similar, but it is now also possible to save and view simulation results independently from the main application. Other than that there are many improvements to the user interfaces of both *GUI* and *Post*.
+The basic workflow of the program is still very similar, but it is now also possible to save and view simulation results independently from the main application.
+Other than that there are many smaller improvements to the user interfaces of both model editor and result viewer.
 On the simulation side, several new output results were added, as well as the possibility to take the damping properties of limbs and string into account.
 
 Since Windows 7 reached its end of life in January this year, it is no longer a supported platform for VirtualBow.
@@ -18,6 +18,8 @@ Another release that unfortunately had to be dropped is the AppImage for Linux.
 The approach "one application - one file" just doesn't work very well anymore with the new components.
 Hopefully most users can switch to the `deb` or `rpm` packages.
 Sorry for any inconvenience this may cause!
+
+As always, a detailed list of changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
 
 ### <p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.11.2019</span></p>
 

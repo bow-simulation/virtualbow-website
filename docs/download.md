@@ -22,7 +22,7 @@ Installer image for MacOS 10.11 and later.
 
 ---
 
-VirtualBow is tested on Ubuntu 16.04 and Fedora 30 but should also work on other `deb` or `rpm` based distributions.
+VirtualBow for Linux is tested on Ubuntu 16.04 and Fedora 30 but should also work on other `deb` and `rpm` based distributions.
 
 <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.7/virtualbow-0.7-linux64.deb" class="downloadlink"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">.deb Package</a>
 <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.7/virtualbow-0.7-linux64.rpm" class="downloadlink"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">.rpm Package</a>
