@@ -1,4 +1,4 @@
-### <p style="text-align:left;">Version 0.7 released! <span style="float:right;">28.05.2020</span></p>
+### <p style="text-align:left;">Version 0.7 released! <span style="float:right;">12.05.2020</span></p>
 
 ---
 
