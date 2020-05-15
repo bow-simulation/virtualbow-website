@@ -7,10 +7,10 @@
 ---
 
 VirtualBow is a free, open-source software tool for designing and simulating bows.
-It gives users an easy way to test and optimize their designs before actually building them.
-The simulation results include a variety of static and dynamic characteristics of the bow such as the draw curve, limb deformation, material stress, arrow velocity and degree of efficiency.
+It gives users an easy way to test and optimize their designs by providing almost instant feedback about a bow's predicted performance.
+The simulation results include a variety of static and dynamic characteristics of the bow such as the draw curve, limb deformation, stresses, arrow velocity and degree of efficiency.
 
-However, please note that this software is still somewhat immature, so don't trust the results too much and report any bugs that you find.
+However, please note that this software is still immature, so don't trust the results too much yet and report any bugs that you find.
 For more details see the screenshots and feature list below or have a look at the [user manual](resources.md).
 Visit our subreddit [r/VirtualBow](https://www.reddit.com/r/VirtualBow) for news, support and general discussion.
 
