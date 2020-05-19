@@ -15,14 +15,18 @@ It covers the theoretical and technical details behind the software like the mat
 
 ## Bow Design
 
-Simulations can be used to evaluate bow designs, but they don't actually tell you how to design a good bow.
-These are some good resources about bow design:
-
 * [The Traditional Bowyer's Bible, Volume 1](https://books.google.com/books?id=2O0amwEACAAJ), Chapter 3: *Bow Design and Performance* by Tim Baker.
 In this chapter, all the common design choices and how they affect bow performance are explained in a very practical and understandable way.
 
 * The [article on bow design](http://crossbow.wikia.com/wiki/Bow_design) from the crossbow building wiki is also a good read.
 It is geared towards crossbows but most of it also applies to bows in general.
+<br><br>
+
+## Material Properties
+
+* [String material tests [pdf]](../files/test_report_ditf.pdf) Tensile test results for *Dacron B50*, *Fastflight Plus* and *BCY 452X*, done by the German Institutes of Textile and Fiber Research ([DITF](https://www.ditf.de/)). The report is German, but the results are also in the user manual.
+
+* [The Wood Database](https://www.wood-database.com/) has average values for the mechanical properties of many types of wood.
 <br><br>
 
 ## Similar/Related Software
