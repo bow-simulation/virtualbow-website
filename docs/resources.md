@@ -22,7 +22,7 @@ In this chapter, all the common design choices and how they affect bow performan
 It is geared towards crossbows but most of it also applies to bows in general.
 <br><br>
 
-## Material Properties
+## Material Data
 
 * [String material tests [pdf]](../files/test_report_ditf.pdf) Tensile test results for *Dacron B50*, *Fastflight Plus* and *BCY 452X*, done by the German Institutes of Textile and Fiber Research ([DITF](https://www.ditf.de/)). The report is German, but the results are also in the user manual.
 
