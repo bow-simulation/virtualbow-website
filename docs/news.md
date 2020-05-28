@@ -1,3 +1,11 @@
+### <p style="text-align:left;">Version 0.7.1 released! <span style="float:right;">28.05.2020</span></p>
+
+---
+
+This minor release fixes two issues that prevent VirtualBow from being usable on MacOS, as well as another issue on Windows where the simulation would fail for certain input parameters.
+
+As always, the exact changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+
 ### <p style="text-align:left;">Version 0.7 released! <span style="float:right;">12.05.2020</span></p>
 
 ---
