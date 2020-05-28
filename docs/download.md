@@ -26,7 +26,6 @@ The Linux version is available either as a `deb` or an `rpm` package.
 They are tested on Ubuntu 16.04 and Fedora 30 but should also work on other distributions that use those package formats.
 
 <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.7.1/virtualbow-0.7.1-linux64.deb" class="downloadlink"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-0.7.1-linux64.deb</a>
-<br>
 <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.7.1/virtualbow-0.7.1-linux64.rpm" class="downloadlink"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-0.7.1-linux64.rpm</a>
 <br>
 <br>
