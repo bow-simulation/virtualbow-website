@@ -12,7 +12,7 @@ a.downloadlink:link, a.downloadlink:visited {
   text-align: left;
   text-decoration: none;
   display: inline-block;
-  width: 160px;
+  width: 255px;
 }
 
 a.downloadlink:hover, a.downloadlink:active {
