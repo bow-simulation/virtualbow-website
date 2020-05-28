@@ -1,17 +1,15 @@
 ## User Manual
 
-The user manual gives an overview of all program features, explains the input parameters and simulation results and also contains some additional background information.
-
-<a href="../files/user_manual.pdf" class="downloadlink"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">User Manual</a>
-<br><br>
+[User Manual [pdf]](../files/user_manual.pdf): The user manual gives an overview of all program features, explains the input parameters and simulation results and also contains some additional background information.
+<br>
+<br>
 
 ## Theory Manual
 
-The Theory Manual is still a work in progress and is intended for developers and interested users.
+[Theory Manual [pdf]](../files/theory_manual.pdf): The theory manual is still a work in progress and is intended for developers and interested users.
 It covers the theoretical and technical details behind the software like the mathematical bow model and the numerical solution methods.
-
-<a href="../files/theory_manual.pdf" class="downloadlink"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">Theory Manual</a>
-<br><br>
+<br>
+<br>
 
 ## Bow Design
 
@@ -20,14 +18,16 @@ In this chapter, all the common design choices and how they affect bow performan
 
 * The [article on bow design](http://crossbow.wikia.com/wiki/Bow_design) from the crossbow building wiki is also a good read.
 It is geared towards crossbows but most of it also applies to bows in general.
-<br><br>
+<br>
+<br>
 
 ## Material Data
 
 * [String material tests [pdf]](../files/test_report_ditf.pdf) Tensile test results for *Dacron B50*, *Fastflight Plus* and *BCY 452X*, done by the German Institutes of Textile and Fiber Research ([DITF](https://www.ditf.de/)). The report is German, but the results are also in the user manual.
 
 * [The Wood Database](https://www.wood-database.com/) has average values for the mechanical properties of many types of wood.
-<br><br>
+<br>
+<br>
 
 ## Similar/Related Software
 
@@ -41,7 +41,8 @@ It's probably one of the most well-known bow design tools.
 * [DrawCurve Calculator](http://www-personal.umich.edu/~cdsnyder/drawcurve/) by Chris Snyder is a utility program for visualizing a bow's draw curve and calculating the stored energy.
 
 * [x-Ballistics](http://www.x-ballistics.eu/cms/home/) is a browser based application that can simulate the exterior ballistics/trajectory of arrows.
-<br><br>
+<br>
+<br>
 
 ## Physics of Bow and Arrow
 
