@@ -4,7 +4,6 @@
 
 a.downloadlink:link, a.downloadlink:visited {
   color: #444444;
-  border: 1px solid #b3b3b3;
   border-radius: 10px;
   background-color: #e6ecff;
   padding: 4px 0px 4px 12px;
@@ -20,17 +19,9 @@ a.downloadlink:hover, a.downloadlink:active {
 }
 
 a.imagelink:link, a.imagelink:visited {
-  color: #444444;
-  border: 1px solid #b3b3b3;
-  border-radius: 10px;
-  background-color: #e6ecff;
   padding: 10px;
   margin: 15px 10px 15px 0px;
   text-align: left;
   text-decoration: none;
   display: inline-block;
-}
-
-a.imagelink:hover, a.imagelink:active {
-  background-color: #b3c6ff;
 }
