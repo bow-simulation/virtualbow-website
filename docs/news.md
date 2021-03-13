@@ -1,3 +1,16 @@
+### <p style="text-align:left;">Version 0.8 released! <span style="float:right;">13.03.2021</span></p>
+
+---
+
+This release adds various smaller features and improvements, like for example
+
+* A new arrow clamp force that prevents the arrow from leaving the string too early
+* New icons for the toolbar and model tree as well as other visual changes
+* Improvements to the presentation of some of the output results
+* Several bug fixes and minor improvements
+
+The complete list of changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+
 ### <p style="text-align:left;">Version 0.7.1 released! <span style="float:right;">28.05.2020</span></p>
 
 ---
