@@ -1,88 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Software tool for designing and simulating bows">
-        <meta name="author" content="Stefan Pfeifer">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software tool for designing and simulating bows">
+    <meta name="author" content="Stefan Pfeifer">
+    <link rel="canonical" href="https://www.virtualbow.org/">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    
+    <title>Home - VirtualBow</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="css/base.min.css" rel="stylesheet">
+    <link href="css/cinder.min.css" rel="stylesheet">
+
+    
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>VirtualBow</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="extra.css" rel="stylesheet">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+    <link href="extra.css" rel="stylesheet">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
-    </head>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
 
-    <body class="homepage">
-        <div class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href=".">VirtualBow</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="news/" class="nav-link">News</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="download/" class="nav-link">Download</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="resources/" class="nav-link">Resources</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="about/" class="nav-link">About</a>
-                            </li>
-                        </ul>
+     
+</head>
 
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="news/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://github.com/bow-simulation/virtualbow/" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
+<body class="homepage" >
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href=".">VirtualBow</a>
+            
         </div>
 
-        <div class="container">
-            <div class="row">
-    <div class="col-md-12" role="main">
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="active">
+                        <a href=".">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="news/">News</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="download/">Download</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="files/user_manual.pdf">User Manual (PDF)</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="files/theory_manual.pdf">Theory Manual (PDF)</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="resources/">Resources</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="contact/">Contact & Support</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="contributing/">Getting Involved</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="prev" >
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="news/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/bow-simulation/virtualbow/"><i class="fab fa-github"></i> GitHub</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-12" role="main">
 
 <div>
     <p style="float: left;"><img src="img/logo.svg" style="height: 80px; margin: 5px 20px 0px 0px"></p>
     <h1><b>VirtualBow</b></h1>
-    <h4>Bow & Arrow Physics Simulation</h4>
+    <h4>Software for Designing and Simulating Bows</h4>
 </div>
 
 <hr />
@@ -90,12 +177,13 @@
 It gives users an easy way to test and optimize their designs by providing almost instant feedback about a bow's predicted performance.
 The simulation results include a variety of static and dynamic characteristics of the bow such as the draw curve, limb deformation, stresses, arrow velocity and degree of efficiency.</p>
 <p>However, please note that this software is still immature, so don't trust the results too much yet and report any bugs that you find.
-For more details see the screenshots and feature list below or have a look at the <a href="resources/">user manual</a>.
-Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</a> for news, support and general discussion.</p>
+For more details see the screenshots and feature list below or have a look at the <a href="../files/user_manual.pdf">user manual</a>.</p>
+<hr />
 <p><a href="img/screenshot_01.png" class="imagelink"><img src="img/screenshot_01_thumb.png" style="height: 100px"></a>
 <a href="img/screenshot_02.png" class="imagelink"><img src="img/screenshot_02_thumb.png" style="height: 100px"></a>
 <a href="img/screenshot_03.png" class="imagelink"><img src="img/screenshot_03_thumb.png" style="height: 100px"></a>
 <a href="img/screenshot_04.png" class="imagelink"><img src="img/screenshot_04_thumb.png" style="height: 100px"></a></p>
+<hr />
 <h2 id="features">Features</h2>
 <hr />
 <p><strong>Model Editor</strong></p>
@@ -106,7 +194,7 @@ Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</
 <p><strong>Solver</strong></p>
 <ul>
 <li>Simulates the statics and dynamics of the bow</li>
-<li>Uses the finite element method (FEM)</li>
+<li>Uses a custom finite element method internally</li>
 </ul>
 <p><strong>Result Viewer</strong></p>
 <ul>
@@ -129,44 +217,64 @@ Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</
 <p><strong>Command Line Interface</strong></p>
 <ul>
 <li>Run simulations from the command line</li>
-<li>Call VirtualBow from other programs/scripts to perform parameter studies and design optimizations</li>
+<li>Call VirtualBow from external programs/scripts to perform parameter studies and design optimizations</li>
 </ul>
 <p><strong>Fully Documented</strong></p>
 <ul>
-<li><a href="resources/#User Manual">User Manual</a>: Explains all features of the program and helps you getting started</li>
-<li><a href="resources/#Theory Manual">Theory Manual</a>: Detailed documentation of the internal simulation methods</li>
+<li><a href="../files/user_manual.pdf">User Manual</a>: Explains all features of the program and helps you getting started</li>
+<li><a href="../files/theory_manual.pdf">Theory Manual</a>: Detailed documentation of the internal simulation methods</li>
 </ul>
 <p><strong>Free and Open-Source</strong></p>
 <ul>
 <li>Released under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License v3.0</a></li>
 <li>Free to use, modify and redistribute</li>
-<li>Anyone can <a href="about/">get involved</a> in the development</li>
+<li>Anyone can <a href="contributing/">get involved</a> in the development</li>
 </ul>
 <p><strong>Cross-Platform</strong></p>
 <ul>
 <li><a href="download/">Downloads</a> are available for Windows, Linux and MacOS</li>
 </ul></div>
+        
+        
+    </div>
 
-            </div>
-        </div>
-
-        <footer class="col-md-12">
+    
+      <footer class="col-md-12 text-center">
+          
+          
             <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script>
-            var base_url = ".",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "."</script>
+    
+    <script src="js/base.js"></script>
+    <script src="search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
                 <p>
@@ -175,7 +283,7 @@ Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</
                 </p>
                 <form>
                     <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -224,11 +332,11 @@ Visit our subreddit <a href="https://www.reddit.com/r/VirtualBow">r/VirtualBow</
         </div>
     </div>
 </div>
-
     </body>
+
 </html>
 
 <!--
-MkDocs version : 1.1.2
-Build Date UTC : 2021-03-13 15:49:16.474142+00:00
+MkDocs version : 1.2.3
+Build Date UTC : 2021-11-13 16:02:38.708069+00:00
 -->

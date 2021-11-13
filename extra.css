@@ -1,26 +1,6 @@
-.container {
-    max-width: 960px;
-}
-
-a.downloadlink:link, a.downloadlink:visited {
-  color: #444444;
-  border-radius: 8px;
-  background-color: #e6ecff;
-  padding: 4px 0px 4px 12px;
-  margin: 0px 5px 5px 0px;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  width: 255px;
-}
-
-a.downloadlink:hover, a.downloadlink:active {
-  background-color: #b3c6ff;
-}
-
 a.imagelink:link, a.imagelink:visited {
   border: 1px solid #999999;
-  margin: 15px 10px 15px 0px;
+  margin: 20px;
   text-align: left;
   text-decoration: none;
   display: inline-block;
