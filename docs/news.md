@@ -1,3 +1,5 @@
+disable_toc: true
+
 ### <p style="text-align:left;">Version 0.8 released! <span style="float:right;">13.03.2021</span></p>
 
 ---
@@ -40,7 +42,7 @@ The approach "one application - one file" just doesn't work very well anymore wi
 Hopefully most users can switch to the `deb` or `rpm` packages.
 Sorry for any inconvenience this may cause!
 
-As always, a detailed list of changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+A detailed list of changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
 
 ### <p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.11.2019</span></p>
 

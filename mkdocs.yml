@@ -1,4 +1,5 @@
 site_name: VirtualBow
+site_url: https://www.virtualbow.org/
 site_description: Software tool for designing and simulating bows
 site_author: Stefan Pfeifer
 
@@ -9,13 +10,17 @@ extra_css:
     - extra.css
 
 theme:
-    name: mkdocs
-    nav_style: light
-    custom_dir: custom_theme
+    name: null
+    custom_dir: cinder/
 
 nav:
     - Home: index.md
     - News: news.md
     - Download: download.md
-    - Resources: resources.md
-    - About: about.md
+    - Documentation:
+        - User Manual (PDF): ../files/user_manual.pdf
+        - Theory Manual (PDF): ../files/theory_manual.pdf
+        - Resources: resources.md
+    - About:
+        - Contact & Support: contact.md
+        - Getting Involved: contributing.md
