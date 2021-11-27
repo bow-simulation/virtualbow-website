@@ -15,6 +15,8 @@ What do you use it for? Are there specific features you wish it had?
 And of course be sure to report any bugs or other problems you encounter.
 If you have a GitHub account, feel free to go directly to the project's [issue tracker](https://github.com/bow-simulation/virtualbow/issues) for creating new issues or adding your ideas and opinions on existing ones.
 
+If you feel adventurous you can also try the [latest development build](https://github.com/bow-simulation/virtualbow/releases/tag/latest) and test upcoming features before they are released.
+
 **Software Development**
 
 VirtualBow is written in C++ and uses the Qt framework for the user interface.
