@@ -8,7 +8,7 @@ disable_toc: true
 
 **[MatWeb](http://www.matweb.com/)** is a database for material properties that includes many other types of material besides wood
 
-**[String material data](../files/test_report_ditf.pdf)** Tensile test results for *Dacron B50*, *Fastflight Plus* and *BCY 452X*, done by the German Institutes of Textile and Fiber Research ([DITF](https://www.ditf.de/)). The report is German, but the results can also be found in the [user manual](../files/user_manual/string.html).
+**[String material data](../files/test_report_ditf.pdf)** Tensile test results for *Dacron B50*, *Fastflight Plus* and *BCY 452X*, done by the German Institutes of Textile and Fiber Research ([DITF](https://www.ditf.de/)). The report is German, but the results can also be found in the [user manual](../files/user_manual.pdf).
 
 ## Other Software
 
