@@ -9,3 +9,36 @@ a.imagelink:link, a.imagelink:visited {
 a.imagelink:hover, a.imagelink:active {
   background-color: #b3c6ff;
 }
+
+.card-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+}
+
+.card-title {
+  padding: 20px;
+  background-color: #fafafa;
+  border-color: #dddddd;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card-body {
+  padding: 20px 20px 0px 20px;
+  border-color: #dddddd;
+  border-width: thin;
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+.card-footer {
+  padding: 10px 20px 20px 20px;
+  border-color: #dddddd;
+  border-width: thin;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-radius: 0px 0px 5px 5px;
+}
