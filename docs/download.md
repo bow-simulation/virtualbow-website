@@ -14,10 +14,10 @@ disable_toc: true
     </div>
     
     <div class="card-body">
-      The Windows download supports <b>64 bit</b> versions of <b>Windows 8</b>, <b>Windows 10</b> and later.
+      For <b>64 bit</b> versions of <b>Windows 8</b>, <b>Windows 10</b> and later.
     </div>
     <div class="card-body">
-      The macOS download supports <b>macOS 10.13</b> and later.
+      For <b>macOS 10.13</b> and later.
     </div>
     <div class="card-body">
       The Linux packages are tested on <b>Ubuntu 16.04</b> and <b>Fedora 30</b> but should also work on other distributions.
