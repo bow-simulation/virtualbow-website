@@ -42,4 +42,4 @@ disable_toc: true
 <br>
 <br>
 
-**Other versions:** On the <a href=https://github.com/bow-simulation/virtualbow/releases>GitHub release page</a> you can find all previous versions of the Software, releases of the source code, as well as the latest development build for testing.
+**Other versions:** On the <a href=https://github.com/bow-simulation/virtualbow/releases>GitHub release page</a> you can find all previous versions of the software, releases of the source code, as well as the latest development build for testing.
