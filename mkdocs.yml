@@ -18,9 +18,10 @@ nav:
     - News: news.md
     - Download: download.md
     - Documentation:
-        - User Manual (PDF): ../files/user_manual.pdf
-        - Theory Manual (PDF): ../files/theory_manual.pdf
+        - User Manual: ../files/user-manual/
+        - Theory Manual: ../files/theory-manual.pdf
         - Resources: resources.md
     - About:
         - Contact & Support: contact.md
         - Getting Involved: contributing.md
+        - Donate: https://www.paypal.com/donate/?hosted_button_id=CZUXPF6ZCSEZU

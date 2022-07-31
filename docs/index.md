@@ -55,8 +55,8 @@ For more details see the screenshots and feature list below or have a look at th
 
 **Fully Documented**
 
-- [User Manual](../files/user_manual.pdf): Explains all features of the program and helps you getting started
-- [Theory Manual](../files/theory_manual.pdf): Detailed documentation of the internal simulation methods
+- [User Manual](../files/user-manual/): Explains all features of the program and helps you getting started
+- [Theory Manual](../files/theory-manual.pdf): Detailed documentation of the internal simulation methods
 
 **Free and Open-Source**
 

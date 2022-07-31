@@ -39,7 +39,14 @@ disable_toc: true
     </div>
 </div>
 
-<br>
-<br>
+---
 
-**Other versions:** On the <a href=https://github.com/bow-simulation/virtualbow/releases>GitHub release page</a> you can find all previous versions of the software, releases of the source code, as well development builds for testing the latest unstable features.
+<form action="https://www.paypal.com/donate" method="post" target="_top", style="float: left; padding-right: 30px;">
+<input type="hidden" name="hosted_button_id" value="CZUXPF6ZCSEZU" />
+<input type="image" src="https://pics.paypal.com/00/s/NmIwZDE4MjgtODg4Mi00MjEzLWE4YjgtMWEwZjczNDBmNDA4/file.PNG" style="width: 120px", border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_DE/i/scr/pixel.gif" width="1" height="1" />
+</form>
+VirtualBow is free, open source software released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl.html).
+With a donation you can help cover the expenses of the project and support its continued development.
+
+---
