@@ -13,8 +13,7 @@ Let me know what you like or dislike about the program.
 Was it easy to get started with?
 What do you use it for? Are there specific features you wish it had?
 And of course be sure to report any bugs or other problems you encounter.
-If you have a GitHub account, feel free to go directly to the project's [issue tracker](https://github.com/bow-simulation/virtualbow/issues) for creating new issues or adding your ideas and opinions on existing ones.
-
+If you have a GitHub account, feel free to participate in the project's [issue tracker](https://github.com/bow-simulation/virtualbow/issues) as well.
 If you feel adventurous you can also try the [latest development build](https://github.com/bow-simulation/virtualbow/releases/tag/latest) and test upcoming features before they are released.
 
 **Software Development**
@@ -27,6 +26,6 @@ Have a look at the [issue tracker](https://github.com/bow-simulation/virtualbow/
 
 **Validation of Simulation Results**
 
-If you have used this program to design or model an existing bow, let me know how the simulation compares to reality.
-Many simulation results however are difficult to measure, think about stress for example.
+If you have used this program to design or model a bow, let me know how the simulation results compare to the real bow.
+Many simulation results however are difficult to measure, think about stresses for example.
 Therefore people with access to advanced measuring equipment (things like strain gauges, acceleration sensors, a high speed camera, etc.) could be very helpful for this project.

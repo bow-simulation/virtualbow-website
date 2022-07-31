@@ -1,5 +1,27 @@
 disable_toc: true
 
+### <p style="text-align:left;">Version 0.9 released! <span style="float:right;">XX.YY.2022</span></p>
+
+---
+
+It has been a while since the last release, but this new version introduces several important features that have been on the list for a long time.
+Particularly the following three points:
+
+* **Support for units**: The units of all input and output data are now configurable, including both SI and US units. Dimensions for example can now be entered in millimeters, centimeters or inches instead of meters and the draw force can be displayed in pounds instead of newton.
+
+* **A new way to define the bow profile**: The profile curve is no longer only based on length and curvature. Instead there are now various segment types like lines, arcs, spirals and splines that can be combined by users. This is only a first minimal version though and will be extended in the upcoming releases.
+
+* **A new layout of the bow editor**: The properties of the bow are no longer shown and edited via different pop-up dialogs. The new layout uses fixed panels instead that show the properties currently selected in the model tree.
+
+Other notable new features besides those are:
+
+* An option to overlay images over plots for easier comparison
+* Plot contents can be exported as `CSV` for easier exchange with external spreadsheet programs
+* Number input fields accept arithmetic expressions, like `(5*5 + 8)/2`
+* Material properties can be edited separately from the layers, the colors are now user-defined
+
+And of course there are also the usual bug fixes and minor changes, all of which are listed in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+
 ### <p style="text-align:left;">Version 0.8 released! <span style="float:right;">13.03.2021</span></p>
 
 ---
