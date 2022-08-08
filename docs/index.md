@@ -67,3 +67,5 @@ For more details see the screenshots and feature list below or have a look at th
 **Cross-Platform**
 
 - [Downloads](download.md) are available for Windows, Linux and macOS
+
+<br>

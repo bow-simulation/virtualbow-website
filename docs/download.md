@@ -39,6 +39,9 @@ disable_toc: true
     </div>
 </div>
 
+<br>
+<br>
+
 ---
 
 <form action="https://www.paypal.com/donate" method="post" target="_top", style="float: left; padding-right: 30px;">

@@ -29,3 +29,5 @@ Have a look at the [issue tracker](https://github.com/bow-simulation/virtualbow/
 If you have used this program to design or model a bow, let me know how the simulation results compare to the real bow.
 Many simulation results however are difficult to measure, think about stresses for example.
 Therefore people with access to advanced measuring equipment (things like strain gauges, acceleration sensors, a high speed camera, etc.) could be very helpful for this project.
+
+<br>

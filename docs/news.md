@@ -20,7 +20,7 @@ Other notable new features besides those are:
 * Number input fields accept arithmetic expressions, like `(5*5 + 8)/2`
 * Material properties can be edited separately from the layers, the colors are now user-defined
 
-And of course there are also the usual bug fixes and minor changes, all of which are listed in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+And of course there are also the usual bug fixes and minor changes, all of which are listed in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md).
 
 ### <p style="text-align:left;">Version 0.8 released! <span style="float:right;">13.03.2021</span></p>
 
@@ -33,7 +33,7 @@ This release adds various smaller features and improvements, like for example
 * Improvements to the presentation of some of the output results
 * Several bug fixes and minor improvements
 
-The complete list of changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+The complete list of changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md).
 
 ### <p style="text-align:left;">Version 0.7.1 released! <span style="float:right;">28.05.2020</span></p>
 
@@ -41,7 +41,7 @@ The complete list of changes can be found in the [changelog](https://github.com/
 
 This minor release fixes two issues that prevent VirtualBow from being usable on MacOS, as well as another issue on Windows where the simulation would fail for certain input parameters.
 
-As always, the exact changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+As always, the exact changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md).
 
 ### <p style="text-align:left;">Version 0.7 released! <span style="float:right;">12.05.2020</span></p>
 
@@ -64,7 +64,7 @@ The approach "one application - one file" just doesn't work very well anymore wi
 Hopefully most users can switch to the `deb` or `rpm` packages.
 Sorry for any inconvenience this may cause!
 
-A detailed list of changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+A detailed list of changes can be found in the [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md).
 
 ### <p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.11.2019</span></p>
 
@@ -84,7 +84,7 @@ The old name *Bow Simulator*, even though very descriptive, was a bit uninspired
 
 This latest version now finally supports MacOS, making the software available on all major desktop systems.
 Releases for `rpm`-based Linux distributions were also added. Other than that, only minor new features have been introduced, like better width/height interpolation and a more user-friendly way of defining bows with a stiff middle section.
-For a complete list of changes have a look at the new [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md).
+For a complete list of changes have a look at the new [changelog](https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md).
 
 Most of the work on this version however doesn't affect users directly.
 The project has been moved to [GitHub](https://github.com/bow-simulation/virtualbow/) and now uses [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) to automatically build release files for all supported platforms.
@@ -155,3 +155,5 @@ It comes with many improvements such as
 
 The internal redesign of the program lays the groundwork for new features like simulating laminated bows, which is planned for one of the upcoming versions.
 Thank you for your interest and stay tuned!
+
+<br>

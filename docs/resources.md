@@ -35,3 +35,5 @@ An archived version of their former website can be viewed [here](https://web.arc
 **[Bow and arrow dynamics](http://www.outlab.it/doc/marlow81.pdf)**
 
 **[Archery: The Technical Side](https://books.google.com/books?id=fa0FPQAACAAJ)**
+
+<br>
