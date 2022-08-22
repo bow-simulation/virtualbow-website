@@ -1,6 +1,6 @@
 disable_toc: true
 
-### <p style="text-align:left;">Version 0.9 released! <span style="float:right;">XX.YY.2022</span></p>
+### <p style="text-align:left;">Version 0.9 released! <span style="float:right;">22.08.2022</span></p>
 
 ---
 

@@ -20,22 +20,22 @@ disable_toc: true
       For <b>macOS 10.13</b> and later.
     </div>
     <div class="card-body">
-      The Linux packages are tested on <b>Ubuntu 18.04</b> and <b>Fedora 35</b> but should also work on other distributions.
+      The Linux packages are tested on <b>Ubuntu 20.04</b> and <b>Fedora 35</b> but should also work on other distributions.
     </div>
 
     <div class="card-footer">
       <hr>
-      <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.9.0/virtualbow-0.9.0-win64.exe"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-0.9.0-win64.exe</a>
+      <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.9.0/virtualbow-v0.9.0-win64.exe"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-v0.9.0-win64.exe</a>
     </div>
     <div class="card-footer">
       <hr>
-      <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.9.0/virtualbow-0.9.0-mac64.dmg"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-0.9.0-mac64.dmg</a>
+      <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.9.0/virtualbow-v0.9.0-mac64.dmg"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-v0.9.0-mac64.dmg</a>
     </div>
     <div class="card-footer">
       <hr>
-      <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.9.0/virtualbow-0.9.0-linux64.deb"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-0.9.0-linux64.deb</a>
+      <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.9.0/virtualbow-v0.9.0-linux64.deb"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-v0.9.0-linux64.deb</a>
       <br>
-      <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.9.0/virtualbow-0.9.0-linux64.rpm"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-0.9.0-linux64.rpm</a>
+      <a href="https://github.com/bow-simulation/virtualbow/releases/download/v0.9.0/virtualbow-v0.9.0-linux64.rpm"><img src="../img/download.svg" style="width: 15px; margin: 0px 10px 5px 0px">virtualbow-v0.9.0-linux64.rpm</a>
     </div>
 </div>
 
