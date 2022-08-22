@@ -139,25 +139,32 @@
                     <main>
                         <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
 <p>Welcome to the user manual for VirtualBow!</p>
-<p>This manual will help you understand how to use this software for designing bows, running simulations and interpreting the results.
-For support, feedback or to get the latest version of the software and this manual please visit the project's website at <a href="https://www.virtualbow.org/">https://www.virtualbow.org/</a>.</p>
-<p>Like many other simulation tools, VirtualBow consists of three distinct components: A model editor, a solver and a result viewer.</p>
+<p>This manual will help you understand how to use this software for designing bows, simulating their performance and interpreting the results.
+Like many other simulation tools, VirtualBow consists of three distinct components: A model editor, a solver and a result viewer.</p>
 <ul>
 <li>
-<p>The model editor is the most important part of the application from a user's perspective.
+<p>The <strong>model editor</strong> is the most important part of the application from a user's perspective.
 Here you can create, edit and save your designs, which will be stored as <code>.bow</code> files.</p>
 </li>
 <li>
-<p>In the background, the actual work of running a simulation is done by the solver.
-It takes the <code>.bow</code> file, performs the required calculations and saves the results as a <code>.res</code> result file.</p>
+<p>The <strong>solver</strong> does the actual work of running a simulation.
+It takes a <code>.bow</code> file, performs the required calculations and saves the results as a <code>.res</code> file.</p>
 </li>
 <li>
-<p>Finally, the result viewer is used to open and visualize the <code>.res</code> file produced by the solver.
+<p>Finally, the <strong>result viewer</strong> is used to open and visualize the <code>.res</code> files produced by the solver.
 Here you can view the simulation results and evaluate your designs.</p>
 </li>
 </ul>
-<p>The layout of this manual follows this separation.
-The coming chapters will therefore explain each of these components in more detail, starting with the model editor.</p>
+<p>The layout of this manual follows this parition.
+The coming chapters will therefore explain each of these components in more detail, starting with the model editor.
+For support, feedback or to get the latest version of the software please visit the project's website at</p>
+<blockquote>
+<p><a href="https://www.virtualbow.org/">https://www.virtualbow.org/</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Note:</strong> Please keep in mind that VirtualBow is still under development.
+The simulation results are still largely unverified and should not be taken at face value yet, although many users already reported good agreement.</p>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="model-editor"><a class="header" href="#model-editor">Model Editor</a></h1>
 <p>The model editor is the first thing you will see when opening VirtualBow.
 Here you can design your bows, specify their physical properties and start simulations to investigate their performance.</p>
@@ -296,15 +303,19 @@ This value is chosen fairly small by default and can improve the simulation resu
 </figure><div style="break-before: page; page-break-before: always;"></div><h1 id="materials"><a class="header" href="#materials">Materials</a></h1>
 <p>This is a list of materials that can later be assigned to the layers of the bow.</p>
 <figure>
-  <img src="images/screenshots/editor/materials.png" style="width:400px">
-  <figcaption><b>Figure:</b> Materials in the model tree and their properties</figcaption>
+  <img src="images/screenshots/editor/materials.png" style="width:200px">
+  <figcaption><b>Figure:</b> Materials in the model tree</figcaption>
 </figure>
 <p>If the <em>Materials</em> category in the model tree is selected, the buttons (<img src="images/icons/list-add.svg" style="width:20; vertical-align:middle">, <img src="images/icons/list-remove.svg" style="width:20; vertical-align:middle">, <img src="images/icons/list-move-up.svg" style="width:20; vertical-align:middle">, <img src="images/icons/list-move-down.svg" style="width:20; vertical-align:middle">) can be used to add, remove and reorder materials.
-Materials can be renamed by double-clicking and entering a new name.
-For each material, the following properties are needed:</p>
+Materials can be renamed by double-clicking and entering a new name.</p>
+<figure>
+  <img src="images/screenshots/editor/material.png" style="width:200px">
+  <figcaption><b>Figure:</b> Material properties</figcaption>
+</figure>
+<p>For each material, the following properties are needed:</p>
 <ul>
 <li>
-<p><strong>Color:</strong> Color used for display</p>
+<p><strong>Color:</strong> Color of the material (only used for display)</p>
 </li>
 <li>
 <p><strong>Rho:</strong> Density (mass per unit volume)</p>
@@ -338,7 +349,8 @@ Each table row must contain a relative length along the limb (from 0% to 100%) a
 Layer heights may be zero over portions of the length.
 This is useful for modelling layers that don't cover the whole limb.
 Common examples for this are fadeouts and tip wedges.</p>
-<p>The actual height distribution is constructed as a smooth curve (monotone cubic spline) passing through the supplied values and is shown in the <em>Graph</em> panel.</p>
+<p>The actual height distribution is constructed as a smooth curve (monotone cubic spline) passing through the supplied values and is shown in the <em>Graph</em> panel.
+You can use the context menu for additional options on the plot, like showing/hiding control points or adding an overlay image.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="profile"><a class="header" href="#profile">Profile</a></h1>
 <p>The profile defines the shape of the (back of the) bow in unbraced state.</p>
 <figure>
@@ -347,7 +359,8 @@ Common examples for this are fadeouts and tip wedges.</p>
 </figure>
 <p>If the <em>Profile</em> category in the model tree is selected, the buttons (<img src="images/icons/list-add.svg" style="width:20; vertical-align:middle">, <img src="images/icons/list-remove.svg" style="width:20; vertical-align:middle">, <img src="images/icons/list-move-up.svg" style="width:20; vertical-align:middle">, <img src="images/icons/list-move-down.svg" style="width:20; vertical-align:middle">) can be used to add, remove and reorder segments of different types that make up the profile curve (e.g. lines, arcs and more).
 The properties of each segment depend on its type and are explained below.
-The resulting shape of the profile curve is shown in the <em>Graph</em> panel.</p>
+The resulting shape of the profile curve is shown in the <em>Graph</em> panel.
+You can use the context menu for additional options on the plot, like showing/hiding control points, curvature or adding an overlay image.</p>
 <figure>
   <img src="images/screenshots/editor/profile-plot.png" style="width:800px">
   <figcaption><b>Figure:</b> Profile plot</figcaption>
@@ -373,8 +386,8 @@ It can also be zero, in this case the arc turns into a straight line.</p>
   <figcaption><b>Figure:</b> Arc segment properties</figcaption>
 </figure>
 <h2 id="spiral-segments"><a class="header" href="#spiral-segments">Spiral Segments</a></h2>
-<p>The spiral segment describes an https://en.wikipedia.org/wiki/Euler_spiral[Euler spiral], a curve that linearly transitions between two curvatures.
-It is therefore well suited for making smooth transitions between arcs of different radius or lines and arcs.
+<p>The spiral segment describes an <a href="https://en.wikipedia.org/wiki/Euler_spiral">Euler spiral</a>, a curve that linearly transitions between two curvatures.
+It is therefore well suited for making smooth transitions between lines and arcs or arcs of different radius.
 It is defined by a starting radius, and end radius and a length.</p>
 <blockquote>
 <p><strong>Note:</strong> The start and end radius can be positive, negative or zero (similar to the arc segment).</p>
@@ -398,7 +411,8 @@ The width is the same for all layers of the bow.</p>
 </figure>
 <p>The width distribution is defined by a table of relative length and width values.
 Each table row must contain a relative length along the limb (from 0% to 100%) and the corresponding width.
-The actual width distribution is constructed as a smooth curve (monotone cubic spline) passing through the supplied values and is shown in the <em>Graph</em> panel.</p>
+The actual width distribution is constructed as a smooth curve (monotone cubic spline) passing through the supplied values and is shown in the <em>Graph</em> panel.
+You can use the context menu for additional options on the plot, like showing/hiding control points or adding an overlay image.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="string"><a class="header" href="#string">String</a></h1>
 <p>The string is defined by its material properties and the number of strands being used.
 Its length is determined automatically from the brace height that was set under <em>Dimensions</em>.</p>
@@ -510,6 +524,9 @@ The results themselves are organized in different tabs, which will be explained 
 This value applies to all of the tabs.
 Drag the slider to a specific position or use the play buttons to show the simulation results as a continuous animation.
 The input field and the dropdown menu next to it allow you to jump directly to special points in the results, for example where certain forces or stresses reach their maximum.</p>
+<blockquote>
+<p><strong>Note:</strong> The physical units that are used throughout the result viewer can be changed under <em>Options</em> - <em>Units</em>.</p>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="characteristics"><a class="header" href="#characteristics">Characteristics</a></h1>
 <p>Shows all results that can be expressed as a single value.
 Some of them are specific to static or dynamic analysis, others are common in both.</p>
@@ -915,7 +932,8 @@ Scripts that work directly with <code>.res</code> files should therefore expect 
 <p><strong>Note:</strong> For space efficiency reasons, the stress values for each layer aren't stored directly in the result files.
 Instead, each layer has two constant matrices \(H_{e\mathrm{\ (back/belly)}}\) that relate the longitudinal strains \(\varepsilon\) to the resulting stresses at the back or belly side of the layer as well as two matrices \(H_{k\mathrm{\ (back/belly)}}\) that do the same for the bending curvature \(\kappa\).
 The total stress is the sum of the stresses due to longitudinal strain and bending curvature and can be calculated as
-\[\sigma = H_e \cdot \varepsilon + H_k \cdot \kappa\]
+\[\sigma_\mathrm{back} = H_{e,\mathrm{\ back}} \cdot \varepsilon + H_{k,\mathrm{\ back}} \cdot \kappa\]
+\[\sigma_\mathrm{belly} = H_{e,\mathrm{\ belly}} \cdot \varepsilon + H_{k,\mathrm{\ belly}} \cdot \kappa\]
 where the dot (\(\cdot\)) represents a matrix-vector multiplication.
 The result is a vector of stresses corresponding to the nodes of the layer.</p>
 </blockquote>
@@ -1057,14 +1075,14 @@ Changing the unit for <em>Length</em>, for example, will change the unit everywh
 There are also two pre-defined sets of defaults, one for SI units and one for US units.
 You can use those by clicking either of the buttons on the bottom left.</p>
 <p>It is worth noting that the units only affect how values are shown in the user interface.
-The data in the model and result files is always stored in SI base units, so they can be exchanged with other users who might have different units preferences.</p>
+The data in the model and result files is always stored in SI base units, so they can be exchanged with other users who might have different unit preferences.</p>
 <h2 id="plots"><a class="header" href="#plots">Plots</a></h2>
 <p><strong>Background images</strong></p>
 <p>Any plot can be given a background image.
 After selecting <em>Background image...</em> in the plot's context menu, you can load an image and adjust its position and orientation.</p>
 <figure>
   <img src="images/screenshots/editor/plot-overlay.png" style="width:600px">
-  <figcaption><b>Figure:</b> Table context menu</figcaption>
+  <figcaption><b>Figure:</b> Background image dialog</figcaption>
 </figure>
 <p>This feature can be used to model existing bows more easily or to compare the simulation results with actual photographs.
 Background images are only temporary, they are not saved with the model files.</p>
@@ -1087,7 +1105,7 @@ Supported export formats are:</p>
 </ul>
 <p><strong>Other options</strong></p>
 <p>Some of the plots have additional context menu entries.
-The proile plot, for example, has options to show or hide nodes or visualize the curvature.</p>
+The profile plot, for example, has options to show or hide nodes or visualize the curvature.</p>
 <h2 id="number-inputs"><a class="header" href="#number-inputs">Number inputs</a></h2>
 <p>Number input fields may seem simple, but there are a few details worth knowing to use them more effectively.</p>
 <figure>
@@ -1101,7 +1119,7 @@ Supported operations are <code>+</code>, <code>-</code>, <code>*</code>, <code>/
 <p><strong>Decimal separator</strong></p>
 <p>VirtualBow uses a dot (<code>.</code>) as the decimal separator for numbers, regardless of local conventions.
 However, since some countries use a comma (<code>,</code>) instead, their keyboard layouts have a comma on the number block, making it cumbersome to enter numbers with a dot.
-Therefore, to make things easier, the comma on the number pad is automatically converted to a dot.</p>
+Therefore, to make things easier for such users, the comma on the number pad is automatically converted to a dot.</p>
 <p><strong>Scrolling</strong></p>
 <p>The little arrow buttons on the right of the input field can be used to increment/decrement the value.
 Scrolling the mouse wheel while the field is selected does the same thing, just faster.

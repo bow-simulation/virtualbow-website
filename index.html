@@ -94,13 +94,13 @@
                         
                             
 <li >
-    <a href="files/user_manual.pdf">User Manual (PDF)</a>
+    <a href="files/user-manual/">User Manual</a>
 </li>
 
                         
                             
 <li >
-    <a href="files/theory_manual.pdf">Theory Manual (PDF)</a>
+    <a href="files/theory-manual.pdf">Theory Manual</a>
 </li>
 
                         
@@ -128,6 +128,12 @@
                             
 <li >
     <a href="contributing/">Getting Involved</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="https://www.paypal.com/donate/?hosted_button_id=CZUXPF6ZCSEZU">Donate</a>
 </li>
 
                         
@@ -169,36 +175,33 @@
 <div>
     <p style="float: left;"><img src="img/logo.svg" style="height: 80px; margin: 5px 20px 0px 0px"></p>
     <h1><b>VirtualBow</b></h1>
-    <h4>Software for Designing and Simulating Bows</h4>
+    <h4>Software for designing and simulating bows</h4>
 </div>
 
 <hr />
 <p>VirtualBow is a free, open-source software tool for designing and simulating bows.
-It gives users an easy way to test and optimize their designs by providing almost instant feedback about a bow's predicted performance.
-The simulation results include a variety of static and dynamic characteristics of the bow such as the draw curve, limb deformation, stresses, arrow velocity and degree of efficiency.</p>
-<p>However, please note that this software is still immature, so don't trust the results too much yet and report any bugs that you find.
-For more details see the screenshots and feature list below or have a look at the <a href="../files/user_manual.pdf">user manual</a>.</p>
+It gives users an easy way to test and optimize their bow designs before actually building them.
+The software provides almost instant feedback about a bow's predicted performance by calculating things like the force/draw curve, limb deformation, stress distributions, arrow velocity and degree of efficiency.</p>
+<p>For more details see the screenshots and feature list below or have a look at the <a href="../files/user_manual.pdf">user manual</a>.</p>
 <hr />
-<p><a href="img/screenshot_01.png" class="imagelink"><img src="img/screenshot_01_thumb.png" style="height: 100px"></a>
-<a href="img/screenshot_02.png" class="imagelink"><img src="img/screenshot_02_thumb.png" style="height: 100px"></a>
-<a href="img/screenshot_03.png" class="imagelink"><img src="img/screenshot_03_thumb.png" style="height: 100px"></a>
-<a href="img/screenshot_04.png" class="imagelink"><img src="img/screenshot_04_thumb.png" style="height: 100px"></a></p>
+<p><a href="img/screenshot_01.png" class="imagelink"><img src="img/screenshot_01_thumb.png" style="height: 125px"></a>
+<a href="img/screenshot_02.png" class="imagelink"><img src="img/screenshot_02_thumb.png" style="height: 125px"></a>
+<a href="img/screenshot_03.png" class="imagelink"><img src="img/screenshot_03_thumb.png" style="height: 125px"></a>
+<a href="img/screenshot_04.png" class="imagelink"><img src="img/screenshot_04_thumb.png" style="height: 125px"></a></p>
 <hr />
 <h2 id="features">Features</h2>
 <hr />
 <p><strong>Model Editor</strong></p>
 <ul>
 <li>Create, load and save bow models</li>
-<li>Edit layers, material properties and other parameters</li>
+<li>Edit width, layers, materials and many other properties of your bow</li>
 </ul>
-<p><strong>Solver</strong></p>
+<p><strong>Solver &amp; Result Viewer</strong></p>
 <ul>
-<li>Simulates the statics and dynamics of the bow</li>
-<li>Uses a custom finite element method internally</li>
-</ul>
-<p><strong>Result Viewer</strong></p>
+<li>Simulates the statics and dynamics of the bow based on the <a href="https://en.wikipedia.org/wiki/Finite_element_method">finite element method (FEM)</a></li>
+<li>
+<p>Static results: Behaviour of the bow when being drawn from brace height to full draw</p>
 <ul>
-<li>Static results:<ul>
 <li>Limb shapes</li>
 <li>Draw curve</li>
 <li>Stored energy</li>
@@ -206,7 +209,9 @@ For more details see the screenshots and feature list below or have a look at th
 <li>...</li>
 </ul>
 </li>
-<li>Dynamic results:<ul>
+<li>
+<p>Dynamic results: Behaviour of the bow and arrow in motion when the string is released</p>
+<ul>
 <li>Position, velocity and acceleration of string and arrow</li>
 <li>Kinetic and potential energy</li>
 <li>Degree of efficiency</li>
@@ -216,13 +221,13 @@ For more details see the screenshots and feature list below or have a look at th
 </ul>
 <p><strong>Command Line Interface</strong></p>
 <ul>
-<li>Run simulations from the command line</li>
+<li>Run simulations from the command line for advanced use cases</li>
 <li>Call VirtualBow from external programs/scripts to perform parameter studies and design optimizations</li>
 </ul>
 <p><strong>Fully Documented</strong></p>
 <ul>
-<li><a href="../files/user_manual.pdf">User Manual</a>: Explains all features of the program and helps you getting started</li>
-<li><a href="../files/theory_manual.pdf">Theory Manual</a>: Detailed documentation of the internal simulation methods</li>
+<li><a href="../files/user-manual/">User Manual</a>: Explains all features of the program and helps you getting started</li>
+<li><a href="../files/theory-manual.pdf">Theory Manual</a>: Detailed documentation of the internal simulation methods</li>
 </ul>
 <p><strong>Free and Open-Source</strong></p>
 <ul>
@@ -232,25 +237,13 @@ For more details see the screenshots and feature list below or have a look at th
 </ul>
 <p><strong>Cross-Platform</strong></p>
 <ul>
-<li><a href="download/">Downloads</a> are available for Windows, Linux and MacOS</li>
-</ul></div>
+<li><a href="download/">Downloads</a> are available for Windows, Linux and macOS</li>
+</ul>
+<p><br></p></div>
         
         
     </div>
 
-    
-      <footer class="col-md-12 text-center">
-          
-          
-            <hr>
-            <p>
-            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
-            </p>
-          
-
-          
-          
-      </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap-3.0.3.min.js"></script>
@@ -338,5 +331,5 @@ For more details see the screenshots and feature list below or have a look at th
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2022-07-31 13:50:00.809944+00:00
+Build Date UTC : 2022-08-22 17:50:45.985064+00:00
 -->

@@ -94,13 +94,13 @@
                         
                             
 <li >
-    <a href="../files/user_manual.pdf">User Manual (PDF)</a>
+    <a href="../files/user-manual/">User Manual</a>
 </li>
 
                         
                             
 <li >
-    <a href="../files/theory_manual.pdf">Theory Manual (PDF)</a>
+    <a href="../files/theory-manual.pdf">Theory Manual</a>
 </li>
 
                         
@@ -128,6 +128,12 @@
                             
 <li >
     <a href="../contributing/">Getting Involved</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="https://www.paypal.com/donate/?hosted_button_id=CZUXPF6ZCSEZU">Donate</a>
 </li>
 
                         
@@ -166,6 +172,29 @@
         
         <div class="col-md-12" role="main">
 
+<h3 id="version-09-released-22082022"><p style="text-align:left;">Version 0.9 released! <span style="float:right;">22.08.2022</span></p></h3>
+<hr />
+<p>It has been a while since the last release, but this new version introduces several important features that have been on the list for a long time.
+Particularly the following three points:</p>
+<ul>
+<li>
+<p><strong>Support for units</strong>: The units of all input and output data are now configurable, including both SI and US units. Dimensions for example can now be entered in millimeters, centimeters or inches instead of meters and the draw force can be displayed in pounds instead of newton.</p>
+</li>
+<li>
+<p><strong>A new way to define the bow profile</strong>: The profile curve is no longer only based on length and curvature. Instead there are now various segment types like lines, arcs, spirals and splines that can be combined by users. This is only a first minimal version though and will be extended in the upcoming releases.</p>
+</li>
+<li>
+<p><strong>A new layout of the bow editor</strong>: The properties of the bow are no longer shown and edited via different pop-up dialogs. The new layout uses fixed panels instead that show the properties currently selected in the model tree.</p>
+</li>
+</ul>
+<p>Other notable new features besides those are:</p>
+<ul>
+<li>An option to overlay images over plots for easier comparison</li>
+<li>Plot contents can be exported as <code>CSV</code> for easier exchange with external spreadsheet programs</li>
+<li>Number input fields accept arithmetic expressions, like <code>(5*5 + 8)/2</code></li>
+<li>Material properties can be edited separately from the layers, the colors are now user-defined</li>
+</ul>
+<p>And of course there are also the usual bug fixes and minor changes, all of which are listed in the <a href="https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md">changelog</a>.</p>
 <h3 id="version-08-released-13032021"><p style="text-align:left;">Version 0.8 released! <span style="float:right;">13.03.2021</span></p></h3>
 <hr />
 <p>This release adds various smaller features and improvements, like for example</p>
@@ -175,11 +204,11 @@
 <li>Improvements to the presentation of some of the output results</li>
 <li>Several bug fixes and minor improvements</li>
 </ul>
-<p>The complete list of changes can be found in the <a href="https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md">changelog</a>.</p>
+<p>The complete list of changes can be found in the <a href="https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md">changelog</a>.</p>
 <h3 id="version-071-released-28052020"><p style="text-align:left;">Version 0.7.1 released! <span style="float:right;">28.05.2020</span></p></h3>
 <hr />
 <p>This minor release fixes two issues that prevent VirtualBow from being usable on MacOS, as well as another issue on Windows where the simulation would fail for certain input parameters.</p>
-<p>As always, the exact changes can be found in the <a href="https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md">changelog</a>.</p>
+<p>As always, the exact changes can be found in the <a href="https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md">changelog</a>.</p>
 <h3 id="version-07-released-12052020"><p style="text-align:left;">Version 0.7 released! <span style="float:right;">12.05.2020</span></p></h3>
 <hr />
 <p>The most notable change in this new version of VirtualBow is that the application has been split into the following three independent components:</p>
@@ -197,7 +226,7 @@ Another release that unfortunately had to be dropped is the AppImage for Linux.
 The approach "one application - one file" just doesn't work very well anymore with the new components.
 Hopefully most users can switch to the <code>deb</code> or <code>rpm</code> packages.
 Sorry for any inconvenience this may cause!</p>
-<p>A detailed list of changes can be found in the <a href="https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md">changelog</a>.</p>
+<p>A detailed list of changes can be found in the <a href="https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md">changelog</a>.</p>
 <h3 id="version-061-released-02112019"><p style="text-align:left;">Version 0.6.1 released! <span style="float:right;">02.11.2019</span></p></h3>
 <hr />
 <p>This is just a minor bugfix release and only relevant if you (plan to) use the command line interface on Windows.
@@ -209,7 +238,7 @@ It fixes an issue when trying to read the binary output files with Python.</p>
 The old name <em>Bow Simulator</em>, even though very descriptive, was a bit uninspired and more of a placeholder anyway.</p>
 <p>This latest version now finally supports MacOS, making the software available on all major desktop systems.
 Releases for <code>rpm</code>-based Linux distributions were also added. Other than that, only minor new features have been introduced, like better width/height interpolation and a more user-friendly way of defining bows with a stiff middle section.
-For a complete list of changes have a look at the new <a href="https://github.com/bow-simulation/virtualbow/blob/develop/Changelog.md">changelog</a>.</p>
+For a complete list of changes have a look at the new <a href="https://github.com/bow-simulation/virtualbow/blob/develop/CHANGELOG.md">changelog</a>.</p>
 <p>Most of the work on this version however doesn't affect users directly.
 The project has been moved to <a href="https://github.com/bow-simulation/virtualbow/">GitHub</a> and now uses <a href="https://azure.microsoft.com/en-us/services/devops/pipelines/">Azure Pipelines</a> to automatically build release files for all supported platforms.
 This makes creating and testing new releases much less time-consuming and will hopefully lead to more frequent and regular releases in the future.</p>
@@ -259,24 +288,12 @@ It comes with many improvements such as</p>
 <li>Cross-platform support (Windows, Linux, Mac OS X)</li>
 </ul>
 <p>The internal redesign of the program lays the groundwork for new features like simulating laminated bows, which is planned for one of the upcoming versions.
-Thank you for your interest and stay tuned!</p></div>
+Thank you for your interest and stay tuned!</p>
+<p><br></p></div>
         
         
     </div>
 
-    
-      <footer class="col-md-12 text-center">
-          
-          
-            <hr>
-            <p>
-            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
-            </p>
-          
-
-          
-          
-      </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../js/bootstrap-3.0.3.min.js"></script>
