@@ -6,7 +6,7 @@ disable_toc: true
 
 The user-maintained repository **[VirtualBowModels](https://github.com/FunktasticShawn/VirtualBowModels)** provides example files for various different bow designs.
 They are intended as a starting point for users to create their own designs.
-Comments and contributions are encouraged by the original author.
+Contributions and comments are encouraged by the original author.
 
 ## Material Data
 
