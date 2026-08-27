@@ -8,11 +8,15 @@ disable_toc: true
 
 ---
 
-VirtualBow is a free, open-source software tool for designing and simulating bows.
-It gives users an easy way to test and optimize their bow designs before actually building them.
-The software provides almost instant feedback about a bow's predicted performance by calculating things like the force/draw curve, limb deformation, stress distributions, arrow velocity and degree of efficiency.
+Create bow models by specifying design parameters such as limb geometry, layers and material properties.
+Simulate them to reveal how a design performs and where it might fail:
+What do the bending shapes of the limbs look like? How are stresses and strains distributed?
+What arrow velocity and degree of efficiency can be expected?
+The results let you explore these and many other questions.
 
-For more details see the screenshots and feature list below or have a look at the [user manual](../files/user_manual.pdf).
+VirtualBow can be used to refine bow designs before actually building them, to reverse-engineer existing bows and understand what makes them work, or simply as a playground for learning and experimenting.
+
+For more details see the screenshots and feature list below or have a look at the [user manual](files/user-manual/index.html).
 
 ---
 
@@ -29,20 +33,19 @@ For more details see the screenshots and feature list below or have a look at th
 
 **Model Editor**
 
-* Create, load and save bow models
-* Edit width, layers, materials and many other properties of your bow
+- Create, load and save bow models
+- Edit the limb geometry, layers, materials and other properties of your bow
 
 **Solver & Result Viewer**
 
-- Simulates the statics and dynamics of the bow based on the [finite element method (FEM)](https://en.wikipedia.org/wiki/Finite_element_method)
-- Static results: Behaviour of the bow when being drawn from brace height to full draw
+- Simulate the statics and dynamics of a bow with the [finite element method (FEM)](https://en.wikipedia.org/wiki/Finite_element_method)
+- Static results: How the bow behaves as it is drawn from brace height to full draw
     - Limb shapes
-    - Draw curve
+    - Force/draw curve
     - Stored energy
     - Stress distribution
     - ...
-
-- Dynamic results: Behaviour of the bow and arrow in motion when the string is released
+- Dynamic results: How bow and arrow behave after the string is released
     - Position, velocity and acceleration of string and arrow
     - Kinetic and potential energy
     - Degree of efficiency
@@ -50,22 +53,22 @@ For more details see the screenshots and feature list below or have a look at th
 
 **Command Line Interface**
 
-- Run simulations from the command line for advanced use cases
-- Call VirtualBow from external programs/scripts to perform parameter studies and design optimizations
+- Run simulations from the command line, without opening the user interface
+- Call VirtualBow from external programs and scripts for parameter studies and design optimizations
 
 **Fully Documented**
 
-- [User Manual](../files/user-manual/): Explains all features of the program and helps you getting started
-- [Theory Manual](../files/theory-manual.pdf): Detailed documentation of the internal simulation methods
+- [User Manual](files/user-manual/index.html): Explains all features of the program and helps you get started
+- [Theory Manual](files/theory-manual.pdf): Detailed documentation of the internal simulation methods
 
-**Free and Open-Source**
+**Free for Noncommercial Use**
 
-- Released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl.html)
-- Free to use, modify and redistribute
-- Anyone can [get involved](contributing.md) in the development
+- Released under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/)
+- Free to use, modify and redistribute for noncommercial purposes
+- The full source code is available, and anyone can [get involved](contributing.md) in development
 
 **Cross-Platform**
 
-- [Downloads](download.md) are available for Windows, Linux and macOS
+- [Downloads](download.md) for Windows, macOS and Linux
 
 <br>

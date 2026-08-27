@@ -19,8 +19,8 @@ nav:
     - News: news.md
     - Download: download.md
     - Documentation:
-        - User Manual: ../files/user-manual/
-        - Theory Manual: ../files/theory-manual.pdf
+        - User Manual: files/user-manual/index.html
+        - Theory Manual: files/theory-manual.pdf
         - Resources: resources.md
     - About:
         - Contact & Support: contact.md
