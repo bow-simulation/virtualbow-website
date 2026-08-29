@@ -9,13 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="136.2097mm"
-   height="39.451885mm"
+   width="1600"
+   height="463"
    viewBox="0 0 136.20971 39.451886"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="setup-three-point.svg">
+  <rect x="-5%" y="-5%" width="110%" height="110%" fill="#ffffff" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"

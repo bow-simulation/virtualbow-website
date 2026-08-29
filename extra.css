@@ -1,3 +1,20 @@
+[role="main"].col-md-12 {
+  max-width: 60em;
+  float: none;
+  margin: 0 auto;
+}
+
+[role="main"] p,
+[role="main"] li {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h3 {
+  font-variant-numeric: tabular-nums;
+}
+
 a.imagelink:link, a.imagelink:visited {
   border: 1px solid #999999;
   margin: 20px;

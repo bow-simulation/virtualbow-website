@@ -9,13 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="118.33841mm"
-   height="61.699398mm"
+   width="1600"
+   height="834"
    viewBox="0 0 118.33841 61.699397"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="segment-spiral.svg">
+  <rect x="-5%" y="-5%" width="110%" height="110%" fill="#ffffff" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
